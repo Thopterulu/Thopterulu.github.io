@@ -1,0 +1,23 @@
+{
+  "id": "learning-languages/comparatif-lang",
+  "title": "Comparatif Lang",
+  "description": "Test LLM",
+  "source": "@site/docs/learning-languages/comparatif-lang.md",
+  "sourceDirName": "learning-languages",
+  "slug": "/learning-languages/comparatif-lang",
+  "permalink": "/docs/learning-languages/comparatif-lang",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "C",
+    "permalink": "/docs/learning-languages/C"
+  },
+  "next": {
+    "title": "Databases",
+    "permalink": "/docs/learning-languages/databases"
+  }
+}

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Dev Environnement",
-    "permalink": "/docs/category/dev-environnement"
+    "title": "git",
+    "permalink": "/docs/dev-environnement/git"
   },
   "next": {
     "title": "Make",

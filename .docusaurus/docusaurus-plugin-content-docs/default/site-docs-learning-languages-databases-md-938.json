@@ -1,0 +1,23 @@
+{
+  "id": "learning-languages/databases",
+  "title": "Databases",
+  "description": "awesome dbdev",
+  "source": "@site/docs/learning-languages/databases.md",
+  "sourceDirName": "learning-languages",
+  "slug": "/learning-languages/databases",
+  "permalink": "/docs/learning-languages/databases",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Comparatif Lang",
+    "permalink": "/docs/learning-languages/comparatif-lang"
+  },
+  "next": {
+    "title": "GOLANG",
+    "permalink": "/docs/learning-languages/go"
+  }
+}

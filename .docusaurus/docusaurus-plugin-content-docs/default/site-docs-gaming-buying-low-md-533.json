@@ -1,0 +1,23 @@
+{
+  "id": "gaming/buying-low",
+  "title": "Buying games at low price",
+  "description": "- steamdb",
+  "source": "@site/docs/gaming/buying-low.md",
+  "sourceDirName": "gaming",
+  "slug": "/gaming/buying-low",
+  "permalink": "/docs/gaming/buying-low",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Achievement Hunting",
+    "permalink": "/docs/gaming/achievement-hunting"
+  },
+  "next": {
+    "title": "Gaming Culture",
+    "permalink": "/docs/gaming/gaming-culture"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "misc/learning-platforms",
+  "title": "Learning plaforms",
+  "description": "- cisco's netacad",
+  "source": "@site/docs/misc/learning-platforms.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/learning-platforms",
+  "permalink": "/docs/misc/learning-platforms",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Here you find all about getting gold stars that you can put on your CV",
+    "permalink": "/docs/misc/getting-little-goldstars"
+  },
+  "next": {
+    "title": "Magic the Gathering",
+    "permalink": "/docs/misc/magic-the-gathering"
+  }
+}

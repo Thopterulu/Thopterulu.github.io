@@ -1,5 +1,5 @@
 {
-  "/blog-b2f": {
+  "/blog-8d8": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -7,16 +7,22 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "514a0302"
       },
       {
-        "content": "f4f34a3a"
+        "content": "f6e930f1"
       },
       {
-        "content": "8717b14a"
+        "content": "b803a4a1"
       },
       {
-        "content": "925b3f96"
+        "content": "b23c88da"
+      },
+      {
+        "content": "b464878d"
+      },
+      {
+        "content": "9471a95f"
       }
     ],
     "__props": "c15d9823"
@@ -39,7 +45,7 @@
     "sidebar": "814f3328",
     "__props": "ef8b811a"
   },
-  "/blog/authors/all-sebastien-lorber-articles-4a1": {
+  "/blog/authors/thopterulu-64d": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -49,41 +55,28 @@
     },
     "items": [
       {
-        "content": "7661071f"
+        "content": "514a0302"
       },
       {
-        "content": "f4f34a3a"
+        "content": "f6e930f1"
       },
       {
-        "content": "925b3f96"
+        "content": "b803a4a1"
+      },
+      {
+        "content": "b23c88da"
+      },
+      {
+        "content": "b464878d"
+      },
+      {
+        "content": "9471a95f"
       }
     ],
     "sidebar": "814f3328",
-    "__props": "c9c9bef8"
+    "__props": "41fa5ef6"
   },
-  "/blog/authors/yangshun-a68": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "1dea6ca3"
-  },
-  "/blog/first-blog-post-89a": {
+  "/blog/cool-website-i-found-317": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -92,9 +85,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "content": "e273c56f"
+    "content": "718bc9db"
   },
-  "/blog/long-blog-post-9ad": {
+  "/blog/first-blog-post-2a5": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -103,9 +96,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "content": "73664a40"
+    "content": "0374a5f4"
   },
-  "/blog/mdx-blog-post-e9f": {
+  "/blog/i-tried-kvm-c7d": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -114,7 +107,29 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "content": "59362658"
+    "content": "806b7baa"
+  },
+  "/blog/optimizing-stuff-7c5": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "55159625"
+  },
+  "/blog/shit-gets-tiring-c96": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "6436ca51"
   },
   "/blog/tags-287": {
     "__comp": "01a85c17",
@@ -124,7 +139,7 @@
     "sidebar": "814f3328",
     "__props": "3a2db09e"
   },
-  "/blog/tags/docusaurus-704": {
+  "/blog/tags/automatisation-2e7": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -132,21 +147,12 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "f6e930f1"
       }
     ],
-    "__props": "3217192f"
+    "__props": "2bc3e38e"
   },
-  "/blog/tags/facebook-858": {
+  "/blog/tags/bonjour-d67": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -154,12 +160,12 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "b464878d"
       }
     ],
-    "__props": "e5aefb32"
+    "__props": "86f26e3d"
   },
-  "/blog/tags/hello-299": {
+  "/blog/tags/kvm-c0e": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -167,15 +173,28 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "b803a4a1"
+      }
+    ],
+    "__props": "5e4c0c3c"
+  },
+  "/blog/tags/lazy-510": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f6e930f1"
       },
       {
-        "content": "8717b14a"
+        "content": "b803a4a1"
       }
     ],
-    "__props": "f82cd581"
+    "__props": "380e04f8"
   },
-  "/blog/tags/hola-00d": {
+  "/blog/tags/learning-417": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -183,12 +202,122 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "925b3f96"
+        "content": "b23c88da"
+      },
+      {
+        "content": "9471a95f"
       }
     ],
-    "__props": "5e90a9b3"
+    "__props": "30cfe980"
   },
-  "/blog/welcome-d2b": {
+  "/blog/tags/pepega-73a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "514a0302"
+      }
+    ],
+    "__props": "f2aa307c"
+  },
+  "/blog/tags/planning-bc9": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "9471a95f"
+      }
+    ],
+    "__props": "fcc929c5"
+  },
+  "/blog/tags/programming-713": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "b23c88da"
+      }
+    ],
+    "__props": "8831ab77"
+  },
+  "/blog/tags/python-e0b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f6e930f1"
+      }
+    ],
+    "__props": "ae3304ee"
+  },
+  "/blog/tags/scripting-1a7": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f6e930f1"
+      }
+    ],
+    "__props": "17425cff"
+  },
+  "/blog/tags/setup-259": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f6e930f1"
+      },
+      {
+        "content": "b803a4a1"
+      }
+    ],
+    "__props": "9da71520"
+  },
+  "/blog/tags/test-f70": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "b464878d"
+      }
+    ],
+    "__props": "10c21b78"
+  },
+  "/blog/tags/tired-3a1": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "514a0302"
+      }
+    ],
+    "__props": "70496a65"
+  },
+  "/blog/what-about-the-future-834": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -197,7 +326,7 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "content": "d9f32620"
+    "content": "f3bb5d2d"
   },
   "/markdown-page-3d7": {
     "__comp": "1f391b9e",
@@ -206,17 +335,17 @@
     },
     "content": "393be207"
   },
-  "/docs-468": {
+  "/docs-c6f": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-d91": {
+  "/docs-15c": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-669": {
+  "/docs-4b7": {
     "__comp": "a94703ab"
   },
   "/docs/building-websites/Docusaurus-824": {
@@ -235,9 +364,33 @@
     "__comp": "14eb3368",
     "__props": "21b16b40"
   },
+  "/docs/category/electronic-logic--computer-science-c40": {
+    "__comp": "14eb3368",
+    "__props": "48d2009e"
+  },
+  "/docs/category/gaming-3e2": {
+    "__comp": "14eb3368",
+    "__props": "e2c7c978"
+  },
+  "/docs/category/jai-lu-181": {
+    "__comp": "14eb3368",
+    "__props": "56dac005"
+  },
   "/docs/category/learning-languages-fa1": {
     "__comp": "14eb3368",
     "__props": "5bd46b18"
+  },
+  "/docs/category/networks-a1e": {
+    "__comp": "14eb3368",
+    "__props": "71b38571"
+  },
+  "/docs/category/operating-systems-469": {
+    "__comp": "14eb3368",
+    "__props": "a2a9e15a"
+  },
+  "/docs/dev-environnement/git-8d9": {
+    "__comp": "17896441",
+    "content": "18c2ba1d"
   },
   "/docs/dev-environnement/linux-unix-04d": {
     "__comp": "17896441",
@@ -247,9 +400,53 @@
     "__comp": "17896441",
     "content": "e207b67d"
   },
+  "/docs/dev-environnement/neovim-8e5": {
+    "__comp": "17896441",
+    "content": "dc2b800e"
+  },
+  "/docs/dev-environnement/taking-notes-c2c": {
+    "__comp": "17896441",
+    "content": "d15fefab"
+  },
   "/docs/dev-environnement/tmux-01d": {
     "__comp": "17896441",
     "content": "30cfee81"
+  },
+  "/docs/electronic-stuff/buying_hardware-9ef": {
+    "__comp": "17896441",
+    "content": "168e171b"
+  },
+  "/docs/electronic-stuff/turing-complete-27e": {
+    "__comp": "17896441",
+    "content": "3f83bae8"
+  },
+  "/docs/g-lu/atomic-habits-113": {
+    "__comp": "17896441",
+    "content": "ec2991f5"
+  },
+  "/docs/g-lu/du-bonheur-3b3": {
+    "__comp": "17896441",
+    "content": "f5dea0a1"
+  },
+  "/docs/g-lu/to-read-table-076": {
+    "__comp": "17896441",
+    "content": "5d3fd4e1"
+  },
+  "/docs/gaming/achievement-hunting-972": {
+    "__comp": "17896441",
+    "content": "5d3fef1d"
+  },
+  "/docs/gaming/buying-low-2c9": {
+    "__comp": "17896441",
+    "content": "533f6dd0"
+  },
+  "/docs/gaming/gaming-culture-737": {
+    "__comp": "17896441",
+    "content": "bcb4ecb5"
+  },
+  "/docs/gaming/playing-retro-dd1": {
+    "__comp": "17896441",
+    "content": "ede8ba59"
   },
   "/docs/intro-61d": {
     "__comp": "17896441",
@@ -263,6 +460,18 @@
     "__comp": "17896441",
     "content": "7e00601d"
   },
+  "/docs/learning-languages/comparatif-lang-c47": {
+    "__comp": "17896441",
+    "content": "f142b0b0"
+  },
+  "/docs/learning-languages/databases-386": {
+    "__comp": "17896441",
+    "content": "938e6edb"
+  },
+  "/docs/learning-languages/go-cd3": {
+    "__comp": "17896441",
+    "content": "8851baa2"
+  },
   "/docs/learning-languages/python-4ce": {
     "__comp": "17896441",
     "content": "28c2dd50"
@@ -274,6 +483,54 @@
   "/docs/learning-languages/zig-780": {
     "__comp": "17896441",
     "content": "a8115df9"
+  },
+  "/docs/misc/absolute-cinema-721": {
+    "__comp": "17896441",
+    "content": "9f772b94"
+  },
+  "/docs/misc/automatisation-33a": {
+    "__comp": "17896441",
+    "content": "2b431e41"
+  },
+  "/docs/misc/cybersecurity-680": {
+    "__comp": "17896441",
+    "content": "52d31d57"
+  },
+  "/docs/misc/getting-little-goldstars-5ba": {
+    "__comp": "17896441",
+    "content": "f8eaa0aa"
+  },
+  "/docs/misc/learning-platforms-500": {
+    "__comp": "17896441",
+    "content": "da5d5035"
+  },
+  "/docs/misc/magic-the-gathering-24f": {
+    "__comp": "17896441",
+    "content": "f79bf943"
+  },
+  "/docs/misc/osint-1ff": {
+    "__comp": "17896441",
+    "content": "f1920a19"
+  },
+  "/docs/misc/privacy-719": {
+    "__comp": "17896441",
+    "content": "b3df8338"
+  },
+  "/docs/misc/typing-faster-309": {
+    "__comp": "17896441",
+    "content": "d9bf6cee"
+  },
+  "/docs/networks/Network-f56": {
+    "__comp": "17896441",
+    "content": "d250dfa4"
+  },
+  "/docs/os/linux-c24": {
+    "__comp": "17896441",
+    "content": "89c38205"
+  },
+  "/docs/os/make-your-own-os-f7e": {
+    "__comp": "17896441",
+    "content": "c37796c5"
   },
   "/-2e1": {
     "__comp": "c4f5d8e4",

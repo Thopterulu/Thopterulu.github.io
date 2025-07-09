@@ -1,7 +1,7 @@
 {
   "id": "learning-languages/rust",
   "title": "Rust",
-  "description": "",
+  "description": "Memory Safety",
   "source": "@site/docs/learning-languages/rust.md",
   "sourceDirName": "learning-languages",
   "slug": "/learning-languages/rust",

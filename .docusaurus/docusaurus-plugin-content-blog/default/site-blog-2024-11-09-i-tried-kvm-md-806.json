@@ -1,0 +1,63 @@
+{
+  "permalink": "/blog/i-tried-kvm",
+  "source": "@site/blog/2024-11-09-i-tried-kvm.md",
+  "title": "I tried some software KVMs",
+  "description": "J'ai cherché une solution pour passer facilement de mon pc windows à mon linux, j'ai donc voulu tester les KVM (ces switchs qui permettent de passer les périphériques d'un pc à un autre sans ce poser de question).",
+  "date": "2024-11-09T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "setup",
+      "permalink": "/blog/tags/setup"
+    },
+    {
+      "inline": true,
+      "label": "lazy",
+      "permalink": "/blog/tags/lazy"
+    },
+    {
+      "inline": true,
+      "label": "KVM",
+      "permalink": "/blog/tags/kvm"
+    }
+  ],
+  "readingTime": 0.84,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Guillaume",
+      "title": "This is me :D",
+      "url": "https://thopterulu.github.io/",
+      "page": {
+        "permalink": "/blog/authors/thopterulu"
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/guillaumekgrs/",
+        "github": "https://github.com/Thopterulu"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/43354666?v=4",
+      "key": "Thopterulu"
+    }
+  ],
+  "frontMatter": {
+    "slug": "i-tried-kvm",
+    "title": "I tried some software KVMs",
+    "authors": [
+      "Thopterulu"
+    ],
+    "tags": [
+      "setup",
+      "lazy",
+      "KVM"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Optimizing Stuff",
+    "permalink": "/blog/optimizing-stuff"
+  },
+  "nextItem": {
+    "title": "Cool Website I Found",
+    "permalink": "/blog/cool-website-i-found"
+  }
+}

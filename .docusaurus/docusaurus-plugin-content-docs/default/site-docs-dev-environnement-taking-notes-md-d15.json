@@ -1,0 +1,23 @@
+{
+  "id": "dev-environnement/taking-notes",
+  "title": "Tools for taking notes",
+  "description": "markdown",
+  "source": "@site/docs/dev-environnement/taking-notes.md",
+  "sourceDirName": "dev-environnement",
+  "slug": "/dev-environnement/taking-notes",
+  "permalink": "/docs/dev-environnement/taking-notes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Neovim",
+    "permalink": "/docs/dev-environnement/neovim"
+  },
+  "next": {
+    "title": "TMUX",
+    "permalink": "/docs/dev-environnement/tmux"
+  }
+}

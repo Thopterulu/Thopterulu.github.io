@@ -93,6 +93,10 @@ export default {
             {
               "label": "Codewars",
               "href": "https://www.codewars.com/users/Thopter"
+            },
+            {
+              "label": "Monkeytype",
+              "href": "https://monkeytype.com/profile/Thopter"
             }
           ]
         },
@@ -110,7 +114,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Yet another book of knowledge, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Yet another book of knowledge, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -341,6 +345,20 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
     "experimental_storage": {
       "type": "localStorage",
       "namespace": false

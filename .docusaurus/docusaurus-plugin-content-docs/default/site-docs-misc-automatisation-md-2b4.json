@@ -1,0 +1,23 @@
+{
+  "id": "misc/automatisation",
+  "title": "Automatisation",
+  "description": "Learning with Jupyter notebooks",
+  "source": "@site/docs/misc/automatisation.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/automatisation",
+  "permalink": "/docs/misc/automatisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Absolute Cinema",
+    "permalink": "/docs/misc/absolute-cinema"
+  },
+  "next": {
+    "title": "Cybersecurity",
+    "permalink": "/docs/misc/cybersecurity"
+  }
+}

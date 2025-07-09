@@ -1,7 +1,7 @@
 {
   "id": "learning-languages/python",
   "title": "Python",
-  "description": "",
+  "description": "https://github.com/vinta/awesome-python",
   "source": "@site/docs/learning-languages/python.md",
   "sourceDirName": "learning-languages",
   "slug": "/learning-languages/python",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "C",
-    "permalink": "/docs/learning-languages/C"
+    "title": "GOLANG",
+    "permalink": "/docs/learning-languages/go"
   },
   "next": {
     "title": "Rust",

@@ -1,0 +1,23 @@
+{
+  "id": "dev-environnement/git",
+  "title": "git",
+  "description": "Because life can get easier or extremly painfull depending on if you added \"-d\" to your last push.",
+  "source": "@site/docs/dev-environnement/git.md",
+  "sourceDirName": "dev-environnement",
+  "slug": "/dev-environnement/git",
+  "permalink": "/docs/dev-environnement/git",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dev Environnement",
+    "permalink": "/docs/category/dev-environnement"
+  },
+  "next": {
+    "title": "Linux / Unix",
+    "permalink": "/docs/dev-environnement/linux-unix"
+  }
+}

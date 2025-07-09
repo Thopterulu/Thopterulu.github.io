@@ -1,0 +1,23 @@
+{
+  "id": "dev-environnement/neovim",
+  "title": "Neovim",
+  "description": "I started to use Neovim, because Definitions fromh WORD are quoted below to explain the difference between word and WORD.",
+  "source": "@site/docs/dev-environnement/neovim.md",
+  "sourceDirName": "dev-environnement",
+  "slug": "/dev-environnement/neovim",
+  "permalink": "/docs/dev-environnement/neovim",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Make",
+    "permalink": "/docs/dev-environnement/make"
+  },
+  "next": {
+    "title": "Tools for taking notes",
+    "permalink": "/docs/dev-environnement/taking-notes"
+  }
+}

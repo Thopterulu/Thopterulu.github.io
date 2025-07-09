@@ -1,0 +1,23 @@
+{
+  "id": "electronic-stuff/buying_hardware",
+  "title": "Buying Hardware stuff",
+  "description": "Prebuilt PC",
+  "source": "@site/docs/electronic-stuff/buying_hardware.md",
+  "sourceDirName": "electronic-stuff",
+  "slug": "/electronic-stuff/buying_hardware",
+  "permalink": "/docs/electronic-stuff/buying_hardware",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "electronic, logic & computer science",
+    "permalink": "/docs/category/electronic-logic--computer-science"
+  },
+  "next": {
+    "title": "Turing complete",
+    "permalink": "/docs/electronic-stuff/turing-complete"
+  }
+}

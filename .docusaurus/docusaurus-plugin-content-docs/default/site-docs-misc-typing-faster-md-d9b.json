@@ -1,0 +1,19 @@
+{
+  "id": "misc/typing-faster",
+  "title": "Typing faster",
+  "description": "The main goal isn't to reach 160WPM but to know every keys on your keyboard and to use them with ease. For this kind of practice monkey type is very good, I enjoyed the \"quotes\" section very much.",
+  "source": "@site/docs/misc/typing-faster.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/typing-faster",
+  "permalink": "/docs/misc/typing-faster",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "privacy",
+    "permalink": "/docs/misc/privacy"
+  }
+}

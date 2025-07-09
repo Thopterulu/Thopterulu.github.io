@@ -1,0 +1,23 @@
+{
+  "id": "misc/magic-the-gathering",
+  "title": "Magic the Gathering",
+  "description": "References",
+  "source": "@site/docs/misc/magic-the-gathering.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/magic-the-gathering",
+  "permalink": "/docs/misc/magic-the-gathering",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Learning plaforms",
+    "permalink": "/docs/misc/learning-platforms"
+  },
+  "next": {
+    "title": "osint",
+    "permalink": "/docs/misc/osint"
+  }
+}

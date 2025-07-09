@@ -1,0 +1,23 @@
+{
+  "id": "misc/cybersecurity",
+  "title": "Cybersecurity",
+  "description": "some stuff I keep about cyber and co.",
+  "source": "@site/docs/misc/cybersecurity.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/cybersecurity",
+  "permalink": "/docs/misc/cybersecurity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Automatisation",
+    "permalink": "/docs/misc/automatisation"
+  },
+  "next": {
+    "title": "Here you find all about getting gold stars that you can put on your CV",
+    "permalink": "/docs/misc/getting-little-goldstars"
+  }
+}

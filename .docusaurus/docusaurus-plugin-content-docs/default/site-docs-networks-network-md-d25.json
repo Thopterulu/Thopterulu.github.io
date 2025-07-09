@@ -1,0 +1,23 @@
+{
+  "id": "networks/Network",
+  "title": "Network",
+  "description": "SSL/TLS",
+  "source": "@site/docs/networks/Network.md",
+  "sourceDirName": "networks",
+  "slug": "/networks/Network",
+  "permalink": "/docs/networks/Network",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Networks",
+    "permalink": "/docs/category/networks"
+  },
+  "next": {
+    "title": "Operating Systems",
+    "permalink": "/docs/category/operating-systems"
+  }
+}

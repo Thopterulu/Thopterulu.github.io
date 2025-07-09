@@ -1,0 +1,23 @@
+{
+  "id": "misc/privacy",
+  "title": "privacy",
+  "description": "keeping your sensible documents safe or at least try to",
+  "source": "@site/docs/misc/privacy.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/privacy",
+  "permalink": "/docs/misc/privacy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "osint",
+    "permalink": "/docs/misc/osint"
+  },
+  "next": {
+    "title": "Typing faster",
+    "permalink": "/docs/misc/typing-faster"
+  }
+}

@@ -15,5 +15,9 @@
   "previous": {
     "title": "Docusaurus",
     "permalink": "/docs/building-websites/Docusaurus"
+  },
+  "next": {
+    "title": "electronic, logic & computer science",
+    "permalink": "/docs/category/electronic-logic--computer-science"
   }
 }
