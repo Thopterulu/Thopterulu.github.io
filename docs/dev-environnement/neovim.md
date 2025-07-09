@@ -1,6 +1,19 @@
 # Neovim
 
-I started to use Neovim, because Definitions from [:h word](https://vimhelp.org/motion.txt.html#word) and [:h WORD](https://vimhelp.org/motion.txt.html#WORD) are quoted below to explain the difference between **word** and **WORD**.
+I started to use Neovim, because DefDefiniDefinitions from [:h word](https://vimhelp.org/motion.txt.html#word) and [:h WORD](https://vimhelp.org/motion.txt.html#WORD) are quoted below to explain the difference between **word** and **WORD**.
+
+> word A word consists of a sequence of letters, digits and underscores, or a sequence of other non-blank characters, separated with white space (spaces, tabs, `<EOL>`). This can be changed with the iskeyword option. An empty line is also considered to be a word.
+>
+
+> WORD A WORD consists of a sequence of non-blank characters, separated with white space. An empty line is also considered to be a WORD.
+>
+- w move to the start of the next wordom [:h word](https://vimhelp.org/motion.txt.html#word) and [:h WORD](https://vimhelp.org/motion.txt.html#WORD) are quoted below to explain the difference between **word** and **WORD**.
+
+> word A word consists of a sequence of letters, digits and underscores, or a sequence of other non-blank characters, separated with white space (spaces, tabs, `<EOL>`). This can be changed with the iskeyword option. An empty line is also considered to be a word.
+>
+
+> WORD A WORD consists of a sequence of non-blank characters, separated with white space. An empty line is also considered to be a WORD.
+>s from [:h word](https://vimhelp.org/motion.txt.html#word) and [:h WORD](https://vimhelp.org/motion.txt.html#WORD) are quoted below to explain the difference between **word** and **WORD**.
 
 > word A word consists of a sequence of letters, digits and underscores, or a sequence of other non-blank characters, separated with white space (spaces, tabs, `<EOL>`). This can be changed with the iskeyword option. An empty line is also considered to be a word.
 > rently it's superior for programming (I'm jealous of people that know every shortcuts / motions).
@@ -48,7 +61,7 @@ In normal mode you can navigate in the code with the letters  `h`, `j`, `k`, `l`
 
 Definitions from [:h word](https://vimhelp.org/motion.txt.html#word) and [:h WORD](https://vimhelp.org/motion.txt.html#WORD) are quoted below to explain the difference between **word** and **WORD**.
 
-> word A word consists of a sequence of letters, digits and underscores, or a sequence of other non-blank characters, separated with white space (spaces, tabs, <EOL>). This can be changed with the iskeyword option. An empty line is also considered to be a word.
+> word A word consists of a sequence of letters, digits and underscores, or a sequence of other non-blank characters, separated with white space (spaces, tabs, `<EOL>`). This can be changed with the iskeyword option. An empty line is also considered to be a word.
 >
 
 > WORD A WORD consists of a sequence of non-blank characters, separated with white space. An empty line is also considered to be a WORD.

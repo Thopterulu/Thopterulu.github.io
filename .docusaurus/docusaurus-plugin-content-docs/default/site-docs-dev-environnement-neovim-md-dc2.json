@@ -1,7 +1,7 @@
 {
   "id": "dev-environnement/neovim",
   "title": "Neovim",
-  "description": "I started to use Neovim, because Definitions fromh WORD are quoted below to explain the difference between word and WORD.",
+  "description": "I started to use Neovim, because DefDefiniDefinitions fromh WORD are quoted below to explain the difference between word and WORD.",
   "source": "@site/docs/dev-environnement/neovim.md",
   "sourceDirName": "dev-environnement",
   "slug": "/dev-environnement/neovim",
