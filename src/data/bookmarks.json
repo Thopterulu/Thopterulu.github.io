@@ -5,6 +5,7 @@
       "title": "Completionist.me",
       "url": "https://completionist.me/steam/profile/76561198051817792",
       "category": "Gaming",
+      "subcategory": "Tracking",
       "icon": "https://www.google.com/s2/favicons?domain=completionist.me&sz=32",
       "description": "Steam achievement tracking"
     },
@@ -13,6 +14,7 @@
       "title": "Gmail",
       "url": "https://mail.google.com/mail/u/0/?pli=1#inbox",
       "category": "Productivity",
+      "subcategory": "Communication",
       "icon": "https://www.google.com/s2/favicons?domain=mail.google.com&sz=32",
       "description": "Email service"
     },
@@ -21,6 +23,7 @@
       "title": "Google Calendar",
       "url": "https://calendar.google.com/calendar/u/0/r",
       "category": "Productivity",
+      "subcategory": "Organization",
       "icon": "https://www.google.com/s2/favicons?domain=calendar.google.com&sz=32",
       "description": "Calendar and scheduling"
     },
@@ -29,6 +32,7 @@
       "title": "YouTube",
       "url": "https://www.youtube.com/feed/subscriptions",
       "category": "Entertainment",
+      "subcategory": "Video",
       "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32",
       "description": "Video sharing platform"
     },
@@ -37,6 +41,7 @@
       "title": "Twitch",
       "url": "https://www.twitch.tv/",
       "category": "Entertainment",
+      "subcategory": "Streaming",
       "icon": "https://www.google.com/s2/favicons?domain=twitch.tv&sz=32",
       "description": "Live streaming platform"
     },
@@ -45,6 +50,7 @@
       "title": "Google Keep",
       "url": "https://keep.google.com/u/0/",
       "category": "Productivity",
+      "subcategory": "Notes",
       "icon": "https://www.google.com/s2/favicons?domain=keep.google.com&sz=32",
       "description": "Note-taking service"
     },
@@ -53,6 +59,7 @@
       "title": "Bing Image Creator",
       "url": "https://www.bing.com/images/create?",
       "category": "AI Tools",
+      "subcategory": "Image Generation",
       "icon": "https://www.google.com/s2/favicons?domain=bing.com&sz=32",
       "description": "AI image generation"
     },
@@ -61,6 +68,7 @@
       "title": "SteamDB",
       "url": "https://steamdb.info/",
       "category": "Gaming",
+      "subcategory": "Data & Analytics",
       "icon": "https://www.google.com/s2/favicons?domain=steamdb.info&sz=32",
       "description": "Steam database and statistics"
     },
@@ -69,6 +77,7 @@
       "title": "Chess.com",
       "url": "https://www.chess.com/home",
       "category": "Gaming",
+      "subcategory": "Board Games",
       "icon": "https://www.google.com/s2/favicons?domain=chess.com&sz=32",
       "description": "Online chess platform"
     },
@@ -77,6 +86,7 @@
       "title": "Codewars",
       "url": "https://www.codewars.com/dashboard",
       "category": "Development",
+      "subcategory": "Practice",
       "icon": "https://www.google.com/s2/favicons?domain=codewars.com&sz=32",
       "description": "Coding challenges and practice"
     },
@@ -85,6 +95,7 @@
       "title": "GitHub",
       "url": "https://github.com/",
       "category": "Development",
+      "subcategory": "Version Control",
       "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
       "description": "Code hosting and collaboration"
     },
@@ -93,6 +104,7 @@
       "title": "MyLudo",
       "url": "https://www.myludo.fr/#!/home",
       "category": "Gaming",
+      "subcategory": "Board Games",
       "icon": "https://www.google.com/s2/favicons?domain=myludo.fr&sz=32",
       "description": "Board game collection manager"
     },
@@ -101,6 +113,7 @@
       "title": "ProtonMail",
       "url": "https://account.proton.me/fr/mail",
       "category": "Productivity",
+      "subcategory": "Communication",
       "icon": "https://www.google.com/s2/favicons?domain=proton.me&sz=32",
       "description": "Secure email service"
     },
@@ -109,6 +122,7 @@
       "title": "ChatGPT",
       "url": "https://chatgpt.com/",
       "category": "AI Tools",
+      "subcategory": "Chat & Assistant",
       "icon": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=32",
       "description": "AI chatbot and assistant"
     },
@@ -117,6 +131,7 @@
       "title": "Mistral AI",
       "url": "https://chat.mistral.ai/chat",
       "category": "AI Tools",
+      "subcategory": "Chat & Assistant",
       "icon": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=32",
       "description": "AI language model"
     },
@@ -125,6 +140,7 @@
       "title": "Claude",
       "url": "https://claude.ai/new",
       "category": "AI Tools",
+      "subcategory": "Chat & Assistant",
       "icon": "https://www.google.com/s2/favicons?domain=claude.ai&sz=32",
       "description": "AI assistant by Anthropic"
     },
@@ -133,22 +149,25 @@
       "title": "MonkeyType",
       "url": "https://monkeytype.com/",
       "category": "Productivity",
+      "subcategory": "Skills",
       "icon": "https://www.google.com/s2/favicons?domain=monkeytype.com&sz=32",
       "description": "Typing speed test"
     },
     {
       "id": "letterboxd",
       "title": "Letterboxd",
-      "url": "https://letterboxd.com/films/popular/this/week/page/10/",
+      "url": "https://letterboxd.com/thopter/",
       "category": "Entertainment",
+      "subcategory": "Reviews",
       "icon": "https://www.google.com/s2/favicons?domain=letterboxd.com&sz=32",
       "description": "Movie tracking and reviews"
     },
     {
       "id": "backloggd",
       "title": "Backloggd",
-      "url": "https://backloggd.com/",
+      "url": "https://backloggd.com/u/Thopter/",
       "category": "Gaming",
+      "subcategory": "Tracking",
       "icon": "https://www.google.com/s2/favicons?domain=backloggd.com&sz=32",
       "description": "Game tracking and reviews"
     },
@@ -157,6 +176,7 @@
       "title": "SensCritique",
       "url": "https://www.senscritique.com/",
       "category": "Entertainment",
+      "subcategory": "Reviews",
       "icon": "https://www.google.com/s2/favicons?domain=senscritique.com&sz=32",
       "description": "French media review platform"
     },
@@ -165,6 +185,7 @@
       "title": "Udemy",
       "url": "https://www.udemy.com/",
       "category": "Learning",
+      "subcategory": "Online Courses",
       "icon": "https://www.google.com/s2/favicons?domain=udemy.com&sz=32",
       "description": "Online learning platform"
     },
@@ -173,6 +194,7 @@
       "title": "Toutapprendre",
       "url": "https://www.toutapprendre.com/",
       "category": "Learning",
+      "subcategory": "Online Courses",
       "icon": "https://www.google.com/s2/favicons?domain=toutapprendre.com&sz=32",
       "description": "French online learning platform"
     },
@@ -181,6 +203,7 @@
       "title": "Personal Website",
       "url": "https://thopterulu.github.io/",
       "category": "Personal",
+      "subcategory": "Portfolio",
       "icon": "https://www.google.com/s2/favicons?domain=thopterulu.github.io&sz=32",
       "description": "Personal website and portfolio"
     },
@@ -189,6 +212,7 @@
       "title": "GitHub Repository",
       "url": "https://github.com/Thopterulu/Thopterulu.github.io",
       "category": "Development",
+      "subcategory": "Version Control",
       "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
       "description": "Personal website repository"
     },
@@ -197,6 +221,7 @@
       "title": "Hardtuned Store",
       "url": "https://www.hardtunedstore.com/collections/mens",
       "category": "Shopping",
+      "subcategory": "Clothing",
       "icon": "https://www.google.com/s2/favicons?domain=hardtunedstore.com&sz=32",
       "description": "Streetwear and clothing"
     },
@@ -205,6 +230,7 @@
       "title": "Lacoste",
       "url": "https://www.lacoste.com/fr/",
       "category": "Shopping",
+      "subcategory": "Clothing",
       "icon": "https://www.google.com/s2/favicons?domain=lacoste.com&sz=32",
       "description": "Fashion brand"
     },
@@ -213,6 +239,7 @@
       "title": "Reyes Clothing",
       "url": "https://reyes-clothing.fr/fr/",
       "category": "Shopping",
+      "subcategory": "Clothing",
       "icon": "https://www.google.com/s2/favicons?domain=reyes-clothing.fr&sz=32",
       "description": "French clothing brand"
     },
@@ -221,6 +248,7 @@
       "title": "ASOS",
       "url": "https://www.asos.com/fr/homme/",
       "category": "Shopping",
+      "subcategory": "Clothing",
       "icon": "https://www.google.com/s2/favicons?domain=asos.com&sz=32",
       "description": "Online fashion retailer"
     },
@@ -229,6 +257,7 @@
       "title": "Patagonia",
       "url": "https://eu.patagonia.com/fr/fr/",
       "category": "Shopping",
+      "subcategory": "Outdoor Gear",
       "icon": "https://www.google.com/s2/favicons?domain=patagonia.com&sz=32",
       "description": "Outdoor clothing and gear"
     },
@@ -237,6 +266,7 @@
       "title": "Uniqlo",
       "url": "https://www.uniqlo.com/fr/fr/home",
       "category": "Shopping",
+      "subcategory": "Clothing",
       "icon": "https://www.google.com/s2/favicons?domain=uniqlo.com&sz=32",
       "description": "Japanese casual wear"
     },
@@ -245,6 +275,7 @@
       "title": "Talister",
       "url": "https://talister.fr/",
       "category": "Shopping",
+      "subcategory": "Clothing",
       "icon": "https://www.google.com/s2/favicons?domain=talister.fr&sz=32",
       "description": "French fashion brand"
     },
@@ -253,6 +284,7 @@
       "title": "New Balance",
       "url": "https://www.newbalance.fr/fr",
       "category": "Shopping",
+      "subcategory": "Footwear",
       "icon": "https://www.google.com/s2/favicons?domain=newbalance.fr&sz=32",
       "description": "Athletic footwear and apparel"
     },
@@ -261,6 +293,7 @@
       "title": "Adidas",
       "url": "https://www.adidas.fr/",
       "category": "Shopping",
+      "subcategory": "Footwear",
       "icon": "https://www.google.com/s2/favicons?domain=adidas.fr&sz=32",
       "description": "Sportswear brand"
     },
@@ -269,6 +302,7 @@
       "title": "iBuyPower",
       "url": "https://www.ibuypower.com/gaming-pcs/prebuilt-gaming-pcs",
       "category": "Tech",
+      "subcategory": "Hardware",
       "icon": "https://www.google.com/s2/favicons?domain=ibuypower.com&sz=32",
       "description": "Gaming PC builder"
     },
@@ -277,6 +311,7 @@
       "title": "Drop",
       "url": "https://drop.com/mechanical-keyboards/home",
       "category": "Tech",
+      "subcategory": "Peripherals",
       "icon": "https://www.google.com/s2/favicons?domain=drop.com&sz=32",
       "description": "Mechanical keyboards and accessories"
     },
@@ -285,6 +320,7 @@
       "title": "Kono Store",
       "url": "https://kono.store/",
       "category": "Tech",
+      "subcategory": "Peripherals",
       "icon": "https://www.google.com/s2/favicons?domain=kono.store&sz=32",
       "description": "Mechanical keyboard store"
     },
@@ -293,6 +329,7 @@
       "title": "CandyKeys",
       "url": "https://candykeys.com/",
       "category": "Tech",
+      "subcategory": "Peripherals",
       "icon": "https://www.google.com/s2/favicons?domain=candykeys.com&sz=32",
       "description": "Mechanical keyboards and components"
     },
@@ -301,6 +338,7 @@
       "title": "Keychron",
       "url": "https://keychron.fr/fr/",
       "category": "Tech",
+      "subcategory": "Peripherals",
       "icon": "https://www.google.com/s2/favicons?domain=keychron.fr&sz=32",
       "description": "Wireless mechanical keyboards"
     },
@@ -309,6 +347,7 @@
       "title": "Cheatography",
       "url": "https://cheatography.com/",
       "category": "Development",
+      "subcategory": "References",
       "icon": "https://www.google.com/s2/favicons?domain=cheatography.com&sz=32",
       "description": "Programming cheat sheets"
     },
@@ -317,6 +356,7 @@
       "title": "Roguelike Tutorial",
       "url": "http://rogueliketutorials.com/",
       "category": "Development",
+      "subcategory": "Tutorials",
       "icon": "https://www.google.com/s2/favicons?domain=rogueliketutorials.com&sz=32",
       "description": "Game development tutorial"
     },
@@ -325,6 +365,7 @@
       "title": "x86_64 Reference",
       "url": "https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html",
       "category": "Development",
+      "subcategory": "References",
       "icon": "https://www.google.com/s2/favicons?domain=cs.uaf.edu&sz=32",
       "description": "Assembly language reference"
     },
@@ -333,6 +374,7 @@
       "title": "Binance",
       "url": "https://www.binance.com/en/my/wallet/account/main/deposit/fiat/EUR",
       "category": "Crypto",
+      "subcategory": "Exchanges",
       "icon": "https://www.google.com/s2/favicons?domain=binance.com&sz=32",
       "description": "Cryptocurrency exchange"
     },
@@ -341,6 +383,7 @@
       "title": "PancakeSwap",
       "url": "https://pancakeswap.finance/",
       "category": "Crypto",
+      "subcategory": "DeFi",
       "icon": "https://www.google.com/s2/favicons?domain=pancakeswap.finance&sz=32",
       "description": "Decentralized exchange"
     },
@@ -349,6 +392,7 @@
       "title": "YieldWatch",
       "url": "https://www.yieldwatch.net/",
       "category": "Crypto",
+      "subcategory": "Analytics",
       "icon": "https://www.google.com/s2/favicons?domain=yieldwatch.net&sz=32",
       "description": "DeFi portfolio tracker"
     },
@@ -357,6 +401,7 @@
       "title": "Beefy Finance",
       "url": "https://app.beefy.finance/",
       "category": "Crypto",
+      "subcategory": "DeFi",
       "icon": "https://www.google.com/s2/favicons?domain=beefy.finance&sz=32",
       "description": "Yield farming optimizer"
     },
@@ -365,6 +410,7 @@
       "title": "ApeSwap",
       "url": "https://apeswap.finance/",
       "category": "Crypto",
+      "subcategory": "DeFi",
       "icon": "https://www.google.com/s2/favicons?domain=apeswap.finance&sz=32",
       "description": "Decentralized exchange and yield farming"
     },
@@ -373,6 +419,7 @@
       "title": "OVH Manager",
       "url": "https://www.ovh.com/manager/#/hub",
       "category": "Tech",
+      "subcategory": "Hosting",
       "icon": "https://www.google.com/s2/favicons?domain=ovh.com&sz=32",
       "description": "Web hosting management"
     },
@@ -381,6 +428,7 @@
       "title": "IconArchive",
       "url": "https://iconarchive.com/",
       "category": "Design",
+      "subcategory": "Assets",
       "icon": "https://www.google.com/s2/favicons?domain=iconarchive.com&sz=32",
       "description": "Icon collection and downloads"
     },
@@ -389,6 +437,7 @@
       "title": "CodeMentor Projects",
       "url": "https://www.codementor.io/projects/python",
       "category": "Development",
+      "subcategory": "Practice",
       "icon": "https://www.google.com/s2/favicons?domain=codementor.io&sz=32",
       "description": "Python programming projects"
     },
@@ -397,6 +446,7 @@
       "title": "Awesome Self-hosted",
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
       "category": "Development",
+      "subcategory": "Resources",
       "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
       "description": "Self-hosted software alternatives"
     },
@@ -405,6 +455,7 @@
       "title": "Compiler Explorer",
       "url": "https://godbolt.org/",
       "category": "Development",
+      "subcategory": "Tools",
       "icon": "https://www.google.com/s2/favicons?domain=godbolt.org&sz=32",
       "description": "Online compiler and assembly viewer"
     },
@@ -413,6 +464,7 @@
       "title": "Spawning Tool",
       "url": "https://lotv.spawningtool.com/build/178887/",
       "category": "Gaming",
+      "subcategory": "Strategy Games",
       "icon": "https://www.google.com/s2/favicons?domain=spawningtool.com&sz=32",
       "description": "StarCraft II build orders"
     },
@@ -421,6 +473,7 @@
       "title": "RTINGS",
       "url": "https://www.rtings.com/",
       "category": "Reviews",
+      "subcategory": "Tech Reviews",
       "icon": "https://www.google.com/s2/favicons?domain=rtings.com&sz=32",
       "description": "Product reviews and ratings"
     },
@@ -429,6 +482,7 @@
       "title": "Plex",
       "url": "https://app.plex.tv/desktop/#!",
       "category": "Entertainment",
+      "subcategory": "Media Servers",
       "icon": "https://www.google.com/s2/favicons?domain=plex.tv&sz=32",
       "description": "Media streaming platform"
     },
@@ -437,6 +491,7 @@
       "title": "Fanatical",
       "url": "https://www.fanatical.com/en/on-sale",
       "category": "Gaming",
+      "subcategory": "Deals",
       "icon": "https://www.google.com/s2/favicons?domain=fanatical.com&sz=32",
       "description": "Game deals and bundles"
     },
@@ -445,6 +500,7 @@
       "title": "git-crypt",
       "url": "https://www.agwa.name/projects/git-crypt/",
       "category": "Development",
+      "subcategory": "Tools",
       "icon": "https://www.google.com/s2/favicons?domain=agwa.name&sz=32",
       "description": "Transparent file encryption in git"
     },
@@ -453,158 +509,149 @@
       "title": "GitHub Copilot Workspace",
       "url": "https://copilot-workspace.githubnext.com/",
       "category": "Development",
+      "subcategory": "AI Tools",
       "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
       "description": "AI-powered development workspace"
     }
   ],
   "pins": [
     {
-      "id": "261",
-      "uuid": "{14f3cd75-3fcb-4d03-88b9-1f19b22d7254}",
+      "id": "youtube",
       "title": "YouTube",
       "url": "https://www.youtube.com/",
       "category": "Entertainment",
-      "position": 0,
-      "is_essential": true,
-      "created_at": 1750080691556,
-      "updated_at": 1751274274996
+      "subcategory": "Video"
     },
     {
-      "id": "262",
-      "uuid": "{75be73ed-ebb9-4e11-af22-cb944579680c}",
+      "id": "twitch",
       "title": "Twitch",
       "url": "https://www.twitch.tv/",
       "category": "Entertainment",
-      "position": 1,
-      "is_essential": true,
-      "created_at": 1750849470061,
-      "updated_at": 1751274275000
+      "subcategory": "Streaming"
     },
     {
-      "id": "263",
-      "uuid": "{feb2363b-8aff-4f32-bef2-6df0f20bdc58}",
+      "id": "gmail",
       "title": "Gmail",
       "url": "https://mail.google.com/mail/u/0/?pli=1#inbox",
       "category": "Productivity",
-      "position": 2,
-      "is_essential": true,
-      "created_at": 1750176150520,
-      "updated_at": 1751274275002
+      "subcategory": "Communication"
     },
     {
-      "id": "264",
-      "uuid": "{d812d351-373d-4568-b802-2e232ca12868}",
+      "id": "github",
       "title": "GitHub",
       "url": "https://github.com/",
       "category": "Development",
-      "position": 3,
-      "is_essential": true,
-      "created_at": 1,
-      "updated_at": 1751274275008
+      "subcategory": "Version Control"
     },
     {
-      "id": "265",
-      "uuid": "{8a83addb-9f97-46c6-a690-2bc641cacf8a}",
+      "id": "chatgpt",
       "title": "ChatGPT",
       "url": "https://chatgpt.com/",
       "category": "AI Tools",
-      "position": 4,
-      "is_essential": true,
-      "created_at": 1750368804141,
-      "updated_at": 1751274275010
+      "subcategory": "Chat & Assistant"
     },
     {
-      "id": "266",
-      "uuid": "{73852fde-9f7d-4d4c-a0c2-ec2373de8617}",
+      "id": "dev-community",
       "title": "DEV Community",
       "url": "https://dev.to/",
       "category": "Development",
-      "position": 5,
-      "is_essential": true,
-      "created_at": 1750176124755,
-      "updated_at": 1751274275011
+      "subcategory": "Community"
     },
     {
-      "id": "267",
-      "uuid": "{e8d00a81-d16a-4ee9-96e0-42a124034be4}",
+      "id": "google-keep",
       "title": "Google Keep",
       "url": "https://keep.google.com/u/0/#label/ideas%20projects",
       "category": "Productivity",
-      "position": 6,
-      "is_essential": true,
-      "created_at": 0,
-      "updated_at": 1751274275012
+      "subcategory": "Notes"
     },
     {
-      "id": "268",
-      "uuid": "{274591c9-6515-46f4-b49d-41c80cbbd857}",
+      "id": "amazon",
       "title": "Amazon",
       "url": "https://www.amazon.fr/",
       "category": "Shopping",
-      "position": 7,
-      "is_essential": true,
-      "created_at": 1751054237115,
-      "updated_at": 1751274275013
+      "subcategory": "General"
     },
     {
-      "id": "269",
-      "uuid": "{d2bbc860-73c4-4f01-99ff-3ccb605b9343}",
+      "id": "codecrafters",
       "title": "CodeCrafters",
       "url": "https://app.codecrafters.io/courses/shell/introduction?repo=68e7d2a3-9eb9-4be4-98d1-c12a7dca28e3",
       "category": "Learning",
-      "position": 8,
-      "is_essential": true,
-      "created_at": 1751054242747,
-      "updated_at": 1751274275014
+      "subcategory": "Programming"
     },
     {
-      "id": "270",
-      "uuid": "{6736985a-29cf-48c2-bc61-a04a5372614c}",
+      "id": "letterboxd-watchlist",
       "title": "Letterboxd Watchlist",
       "url": "https://letterboxd.com/thopter/watchlist/",
       "category": "Entertainment",
-      "position": 9,
-      "is_essential": true,
-      "created_at": 1751063824341,
-      "updated_at": 1751274275014
+      "subcategory": "Reviews"
     },
     {
-      "id": "271",
-      "uuid": "{2d1d633a-f674-4fb9-a308-ccc2c2dbf96f}",
+      "id": "hltv-results",
       "title": "HLTV Results",
       "url": "https://www.hltv.org/results",
       "category": "Gaming",
-      "position": 10,
-      "is_essential": true,
-      "created_at": 1750176129633,
-      "updated_at": 1751274275017
+      "subcategory": "Esports"
     },
     {
-      "id": "272",
-      "uuid": "{fdd35aa0-c269-4ec6-9730-febc36ed0760}",
-      "title": "Fame Barber",
-      "url": "https://www.google.com/maps/place/Fame+Barber/",
+      "id": "google-maps",
+      "title": "Maps",
+      "url": "https://www.google.com/maps/",
       "category": "Personal",
-      "position": 11,
-      "is_essential": true,
-      "created_at": 1751274274993,
-      "updated_at": 1751274275025
+      "subcategory": "Navigation"
     }
   ],
   "categories": [
-    "All",
-    "AI Tools",
-    "Crypto",
-    "Design",
-    "Development",
-    "Entertainment",
-    "Firefox",
-    "Gaming",
-    "Learning",
-    "Personal",
-    "Productivity",
-    "Reviews",
-    "Shopping",
-    "Tech"
+    {
+      "name": "All",
+      "subcategories": []
+    },
+    {
+      "name": "AI Tools",
+      "subcategories": ["Chat & Assistant", "Image Generation"]
+    },
+    {
+      "name": "Crypto",
+      "subcategories": ["Exchanges", "DeFi", "Analytics"]
+    },
+    {
+      "name": "Design",
+      "subcategories": ["Assets"]
+    },
+    {
+      "name": "Development",
+      "subcategories": ["Version Control", "Practice", "References", "Tutorials", "Tools", "AI Tools", "Resources", "Community"]
+    },
+    {
+      "name": "Entertainment",
+      "subcategories": ["Video", "Streaming", "Reviews", "Media Servers"]
+    },
+    {
+      "name": "Gaming",
+      "subcategories": ["Tracking", "Board Games", "Data & Analytics", "Strategy Games", "Deals", "Esports"]
+    },
+    {
+      "name": "Learning",
+      "subcategories": ["Online Courses", "Programming"]
+    },
+    {
+      "name": "Personal",
+      "subcategories": ["Portfolio", "Navigation"]
+    },
+    {
+      "name": "Productivity",
+      "subcategories": ["Communication", "Organization", "Notes", "Skills"]
+    },
+    {
+      "name": "Reviews",
+      "subcategories": ["Tech Reviews"]
+    },
+    {
+      "name": "Shopping",
+      "subcategories": ["Clothing", "Footwear", "Outdoor Gear", "General"]
+    },
+    {
+      "name": "Tech",
+      "subcategories": ["Hardware", "Peripherals", "Hosting"]
+    }
   ]
 }
