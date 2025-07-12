@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://thopterulu.github.io/blog</id>
+    <title>Yet another book of knowledge Blog</title>
+    <updated>2024-12-03T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://thopterulu.github.io/blog"/>
+    <subtitle>Yet another book of knowledge Blog</subtitle>
+    <icon>https://thopterulu.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Getting Tired]]></title>
+        <id>https://thopterulu.github.io/blog/shit-gets-tiring</id>
+        <link href="https://thopterulu.github.io/blog/shit-gets-tiring"/>
+        <updated>2024-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[En vrai c'est assez lourd le dev, ça va pas assez vite, chaque changement implique une cascade d'autres changements. Hmmm... Peut-être qu'il faut encore plus optimiser, de toute façon le meilleur dev c'est toujours celui où l'on bosse pour soi ;)]]></summary>
+        <content type="html"><![CDATA[<p>En vrai c'est assez lourd le dev, ça va pas assez vite, chaque changement implique une cascade d'autres changements. Hmmm... Peut-être qu'il faut encore plus optimiser, de toute façon le meilleur dev c'est toujours celui où l'on bosse pour soi ;)</p>
+<p>J'ose le trait en ajoutant que n'importe qui dans ma situation actuelle peut s'avouer fatiguer et ko. Mais bon faut tenir <!-- -->:D<!-- --> Gotta believe man</p>]]></content>
+        <author>
+            <name>Guillaume</name>
+            <uri>https://thopterulu.github.io/</uri>
+        </author>
+        <category label="tired" term="tired"/>
+        <category label="pepega" term="pepega"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing Stuff]]></title>
+        <id>https://thopterulu.github.io/blog/optimizing-stuff</id>
+        <link href="https://thopterulu.github.io/blog/optimizing-stuff"/>
+        <updated>2024-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bon là je fais un billet vite fait à l'arrache pour dire que l'optimisation du temps est un life goal, et qu'il faut prendre le temps de trouver ce qui en consomme afin d'optimiser voir éradiquer le surplus d'actions.]]></summary>
+        <content type="html"><![CDATA[<p>Bon là je fais un billet vite fait à l'arrache pour dire que l'optimisation du temps est un life goal, et qu'il faut prendre le temps de trouver ce qui en consomme afin d'optimiser voir éradiquer le surplus d'actions.</p>
+<p>Tout bon dev se doit d'avoir des scripts pour automatiser ses tâches récurrentes, j'ai moi même refait une toolbox pour des actions que je fais souvent : fusion de pdfs, filigranner un document, etc...</p>
+<p>J'imagine ce moment où j'aurais une routine suffisamment optimisée pour faire plusieures activitées dans la journée sans me fatiguer. <!-- -->:D</p>]]></content>
+        <author>
+            <name>Guillaume</name>
+            <uri>https://thopterulu.github.io/</uri>
+        </author>
+        <category label="setup" term="setup"/>
+        <category label="lazy" term="lazy"/>
+        <category label="Python" term="Python"/>
+        <category label="Scripting" term="Scripting"/>
+        <category label="automatisation" term="automatisation"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I tried some software KVMs]]></title>
+        <id>https://thopterulu.github.io/blog/i-tried-kvm</id>
+        <link href="https://thopterulu.github.io/blog/i-tried-kvm"/>
+        <updated>2024-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[J'ai cherché une solution pour passer facilement de mon pc windows à mon linux, j'ai donc voulu tester les KVM (ces switchs qui permettent de passer les périphériques d'un pc à un autre sans ce poser de question).]]></summary>
+        <content type="html"><![CDATA[<p>J'ai cherché une solution pour passer facilement de mon pc windows à mon linux, j'ai donc voulu tester les KVM (ces switchs qui permettent de passer les périphériques d'un pc à un autre sans ce poser de question).</p>
+<p>J'ai vu pas mal de KVM en tant que périphériques mais cela ne me plaisait pas car je souhaitais conserver la fluidité que j'ai sur mes périphériques (il y a un peu d'input lag supplémentaire en rajoutant des périphériques intermédiaires.).</p>
+<p>Je me suis donc tourné vers les KVM software avec un fonctionnement très simple : un pc host qui gère plusieurs clients. J'ai testé avec la version open source la plus utilisée <a href="https://github.com/deskflow/deskflow" target="_blank" rel="noopener noreferrer">deskflow</a>.</p>
+<p>Et autant vous dire que le flow est pas idéal, l'input lag est assez immense (mes deux pc étaient sur le mm réseau et tous deux en wifi).</p>
+<p>Tout ça pour arriver à ma conclusion triste mais réelle : rien ne remplacera le rdp <!-- -->:D<!-- --> Tout est plus simple et pensé pour, c'est juste magique 😉</p>]]></content>
+        <author>
+            <name>Guillaume</name>
+            <uri>https://thopterulu.github.io/</uri>
+        </author>
+        <category label="setup" term="setup"/>
+        <category label="lazy" term="lazy"/>
+        <category label="KVM" term="KVM"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cool Website I Found]]></title>
+        <id>https://thopterulu.github.io/blog/cool-website-i-found</id>
+        <link href="https://thopterulu.github.io/blog/cool-website-i-found"/>
+        <updated>2024-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Y a ce super site learnxinyminutes.com qui permet de faire des résumés de languages ou outils pour les prendre en main facilement et je trouve ça hyper cool :D]]></summary>
+        <content type="html"><![CDATA[<p>Y a ce super site <a href="https://learnxinyminutes.com/" target="_blank" rel="noopener noreferrer">learnxinyminutes.com</a> qui permet de faire des résumés de languages ou outils pour les prendre en main facilement et je trouve ça hyper cool <!-- -->:D</p>]]></content>
+        <author>
+            <name>Guillaume</name>
+            <uri>https://thopterulu.github.io/</uri>
+        </author>
+        <category label="learning" term="learning"/>
+        <category label="Programming" term="Programming"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://thopterulu.github.io/blog/first-blog-post</id>
+        <link href="https://thopterulu.github.io/blog/first-blog-post"/>
+        <updated>2024-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Oui bon là on fait genre un test et puis c'est en Français parceque voilà hein.]]></summary>
+        <content type="html"><![CDATA[<p>Oui bon là on fait genre un test et puis c'est en Français parceque voilà hein.</p>
+<p>et puis là boom je mets genre une trace que j'ai fait de la cyber une fois dans ma vie : 1F2338D7B628374139D373AF383A1BDEC1A16B43CED015849C6BE4E4D90CC2C3</p>
+<p>:D</p>]]></content>
+        <author>
+            <name>Guillaume</name>
+            <uri>https://thopterulu.github.io/</uri>
+        </author>
+        <category label="bonjour" term="bonjour"/>
+        <category label="test" term="test"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What about the future]]></title>
+        <id>https://thopterulu.github.io/blog/what-about-the-future</id>
+        <link href="https://thopterulu.github.io/blog/what-about-the-future"/>
+        <updated>2024-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Okay so, in the next year or so I will do the things presented on the following :]]></summary>
+        <content type="html"><![CDATA[<p>Okay so, in the next year or so I will do the things presented on the following :</p>
+<ul>
+<li><a href="https://sites.google.com/site/letsmakeavoxelengine/home" target="_blank" rel="noopener noreferrer">Let's Make a Voxel Engine</a></li>
+<li>some of <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noopener noreferrer">build-your-own-x</a></li>
+<li>learn piano or something</li>
+<li>make a doc about tmux and learn it at the same time</li>
+<li>make a doc about neovim and learn it the same time</li>
+<li>End "Turing complete" game, make some notes about it (I'm halfway through)</li>
+</ul>
+<p>Maybe(s) :</p>
+<ul>
+<li>Make a specific osint engine (in rust or zig idk)</li>
+</ul>]]></content>
+        <author>
+            <name>Guillaume</name>
+            <uri>https://thopterulu.github.io/</uri>
+        </author>
+        <category label="planning" term="planning"/>
+        <category label="learning" term="learning"/>
+    </entry>
+</feed>
