@@ -172,6 +172,15 @@
       "description": "Game tracking and reviews"
     },
     {
+      "id": "fmhy",
+      "title": "FMHY",
+      "url": "https://fmhy.pages.dev/",
+      "category": "Entertainment",
+      "subcategory": "Reviews",
+      "icon": "https://www.google.com/s2/favicons?domain=fmhy.pages.dev&sz=32",
+      "description": "Free media heck you"
+    },
+    {
       "id": "senscritique",
       "title": "SensCritique",
       "url": "https://www.senscritique.com/",
@@ -179,6 +188,15 @@
       "subcategory": "Reviews",
       "icon": "https://www.google.com/s2/favicons?domain=senscritique.com&sz=32",
       "description": "French media review platform"
+    },
+    {
+      "id": "movix",
+      "title": "Movix",
+      "url": "https://www.movix.site/",
+      "category": "Entertainment",
+      "subcategory": "Movies & Series",
+      "icon": "https://www.google.com/s2/favicons?domain=movix.site&sz=32",
+      "description": "Movie and series"
     },
     {
       "id": "udemy",
@@ -197,15 +215,6 @@
       "subcategory": "Online Courses",
       "icon": "https://www.google.com/s2/favicons?domain=toutapprendre.com&sz=32",
       "description": "French online learning platform"
-    },
-    {
-      "id": "personal-website",
-      "title": "Personal Website",
-      "url": "https://thopterulu.github.io/",
-      "category": "Personal",
-      "subcategory": "Portfolio",
-      "icon": "https://www.google.com/s2/favicons?domain=thopterulu.github.io&sz=32",
-      "description": "Personal website and portfolio"
     },
     {
       "id": "github-repo",
@@ -343,13 +352,13 @@
       "description": "Wireless mechanical keyboards"
     },
     {
-      "id": "cheatography",
-      "title": "Cheatography",
-      "url": "https://cheatography.com/",
-      "category": "Development",
-      "subcategory": "References",
-      "icon": "https://www.google.com/s2/favicons?domain=cheatography.com&sz=32",
-      "description": "Programming cheat sheets"
+      "id": "goclecd",
+      "title": "GoCleCD",
+      "url": "https://www.goclecd.fr/",
+      "category": "Gaming",
+      "subcategory": "Deals",
+      "icon": "https://www.google.com/s2/favicons?domain=goclecd.fr&sz=32",
+      "description": "Game deals and bundles"
     },
     {
       "id": "roguelike-tutorial",
@@ -433,24 +442,6 @@
       "description": "Icon collection and downloads"
     },
     {
-      "id": "codementor",
-      "title": "CodeMentor Projects",
-      "url": "https://www.codementor.io/projects/python",
-      "category": "Development",
-      "subcategory": "Practice",
-      "icon": "https://www.google.com/s2/favicons?domain=codementor.io&sz=32",
-      "description": "Python programming projects"
-    },
-    {
-      "id": "awesome-selfhosted",
-      "title": "Awesome Self-hosted",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "category": "Development",
-      "subcategory": "Resources",
-      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
-      "description": "Self-hosted software alternatives"
-    },
-    {
       "id": "godbolt",
       "title": "Compiler Explorer",
       "url": "https://godbolt.org/",
@@ -494,24 +485,6 @@
       "subcategory": "Deals",
       "icon": "https://www.google.com/s2/favicons?domain=fanatical.com&sz=32",
       "description": "Game deals and bundles"
-    },
-    {
-      "id": "git-crypt",
-      "title": "git-crypt",
-      "url": "https://www.agwa.name/projects/git-crypt/",
-      "category": "Development",
-      "subcategory": "Tools",
-      "icon": "https://www.google.com/s2/favicons?domain=agwa.name&sz=32",
-      "description": "Transparent file encryption in git"
-    },
-    {
-      "id": "copilot-workspace",
-      "title": "GitHub Copilot Workspace",
-      "url": "https://copilot-workspace.githubnext.com/",
-      "category": "Development",
-      "subcategory": "AI Tools",
-      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
-      "description": "AI-powered development workspace"
     }
   ],
   "pins": [
@@ -577,13 +550,6 @@
       "url": "https://app.codecrafters.io/courses/shell/introduction?repo=68e7d2a3-9eb9-4be4-98d1-c12a7dca28e3",
       "category": "Learning",
       "subcategory": "Programming"
-    },
-    {
-      "id": "letterboxd-watchlist",
-      "title": "Letterboxd Watchlist",
-      "url": "https://letterboxd.com/thopter/watchlist/",
-      "category": "Entertainment",
-      "subcategory": "Reviews"
     },
     {
       "id": "hltv-results",

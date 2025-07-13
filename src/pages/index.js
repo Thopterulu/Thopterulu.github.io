@@ -15,7 +15,6 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           App Launcher
         </Heading>
-        <p className="hero__subtitle">Quick access to your favorite tools and websites</p>
       </div>
     </header>
   );
