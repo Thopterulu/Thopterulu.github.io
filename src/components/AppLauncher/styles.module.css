@@ -41,8 +41,16 @@
 
 .categoryFilter {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+}
+
+.categoryFilter label {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 .categorySelect {
@@ -71,6 +79,12 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.subcategoryFilter label {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .subcategorySelect {
@@ -106,6 +120,7 @@
   margin-bottom: 2rem;
 }
 
+
 .categoryTitle {
   font-size: 1.3rem;
   font-weight: 600;
@@ -121,6 +136,44 @@
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 0.8rem;
   padding: 0 0.5rem;
+}
+
+.appsGrid.layout-list {
+  grid-template-columns: 1fr;
+}
+
+.appsGrid.layout-compact {
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 0.5rem;
+}
+
+.appsGrid.layout-compact .appShortcut {
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  width: 60px;
+  margin: 0 auto;
+}
+
+/* Hide all text and elements except icon in compact view */
+.appsGrid.layout-compact .appInfo {
+  display: none;
+}
+
+.appsGrid.layout-compact .appIcon {
+  margin-right: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.appsGrid.layout-compact .iconImage {
+  width: 32px;
+  height: 32px;
+}
+
+.appsGrid.layout-compact .iconFallback {
+  font-size: 1.2rem;
 }
 
 .appShortcut {
@@ -176,6 +229,7 @@
   height: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .iconImage {
@@ -219,6 +273,20 @@
   font-weight: 600;
   color: #2c3e50;
   line-height: 1.2;
+}
+
+.appTitle mark {
+  background: #ffd700;
+  padding: 0 2px;
+  border-radius: 2px;
+  color: #000;
+}
+
+.appDescription mark {
+  background: #ffd700;
+  padding: 0 2px;
+  border-radius: 2px;
+  color: #000;
 }
 
 .appDescription {
@@ -456,4 +524,196 @@
   .noResults h3 {
     color: #ecf0f1;
   }
+
+  .searchActions select {
+    background: #34495e;
+    border-color: #4a6741;
+    color: white;
+  }
+
+  .searchActions select:hover {
+    border-color: #3498db;
+    background: #3a5469;
+  }
+
+  .categoryCheckbox {
+    background: #34495e;
+    border-color: #4a6741;
+    color: #ecf0f1;
+  }
+
+  .categoryCheckbox:hover {
+    background: #3a5469;
+    border-color: #3498db;
+    color: #ecf0f1;
+  }
+
+  .categoryFilter label,
+  .subcategoryFilter label {
+    color: #ecf0f1;
+  }
+
+}
+
+/* Additional responsive styles for new features */
+@media screen and (max-width: 768px) {
+  .searchBar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .searchActions {
+    justify-content: center;
+  }
+
+  .categoryFilter {
+    width: 100%;
+  }
+
+  .categoryCheckboxes {
+    justify-content: flex-start;
+  }
+
+}
+
+/* New UI components */
+.searchActions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+
+.layoutSelect {
+  padding: 0.5rem 1rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.layoutSelect:hover {
+  border-color: #007bff;
+}
+
+.categoryCheckboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.categoryCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  background: #f8f9fa;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #007bff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.categoryCheckbox:hover {
+  background: #007bff;
+  border-color: #0056b3;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+.categoryCheckbox input[type="checkbox"] {
+  margin: 0;
+}
+
+
+/* Compact view mobile adjustments */
+@media screen and (max-width: 768px) {
+  .appsGrid.layout-compact {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 0.3rem;
+  }
+
+  .appsGrid.layout-compact .appShortcut {
+    width: 50px;
+    min-height: 50px;
+    padding: 0.3rem;
+  }
+
+  .appsGrid.layout-compact .appIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .appsGrid.layout-compact .iconImage {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Tooltip styling for compact view URLs */
+.appsGrid.layout-compact .appShortcut {
+  position: relative;
+}
+
+/* Enhanced tooltip for compact view */
+.appsGrid.layout-compact .appShortcut::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.appsGrid.layout-compact .appShortcut:hover::after {
+  opacity: 1;
+}
+
+/* Ensure all compact view sections get tooltip styling */
+.categorySection .appsGrid.layout-compact .appShortcut {
+  position: relative;
+}
+
+.categorySection .appsGrid.layout-compact .appShortcut::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.categorySection .appsGrid.layout-compact .appShortcut:hover::after {
+  opacity: 1;
 }

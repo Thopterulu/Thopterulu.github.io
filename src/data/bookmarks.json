@@ -506,6 +506,7 @@
       "id": "gmail",
       "title": "Gmail",
       "url": "https://mail.google.com/mail/u/0/?pli=1#inbox",
+      "icon": "https://www.google.com/s2/favicons?domain=mail.google.com&sz=32",
       "category": "Productivity",
       "subcategory": "Communication"
     },
@@ -534,6 +535,7 @@
       "id": "google-keep",
       "title": "Google Keep",
       "url": "https://keep.google.com/u/0/#label/ideas%20projects",
+      "icon": "https://www.google.com/s2/favicons?domain=keep.google.com&sz=32",
       "category": "Productivity",
       "subcategory": "Notes"
     },
@@ -562,6 +564,7 @@
       "id": "google-maps",
       "title": "Maps",
       "url": "https://www.google.com/maps/",
+      "icon": "https://www.google.com/s2/favicons?domain=maps.google.com&sz=32",
       "category": "Personal",
       "subcategory": "Navigation"
     }
