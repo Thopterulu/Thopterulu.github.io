@@ -485,6 +485,51 @@
       "subcategory": "Deals",
       "icon": "https://www.google.com/s2/favicons?domain=fanatical.com&sz=32",
       "description": "Game deals and bundles"
+    },
+    {
+      "id": "vercel",
+      "title": "Vercel",
+      "url": "https://vercel.com/",
+      "category": "Development",
+      "subcategory": "Tools",
+      "icon": "https://www.google.com/s2/favicons?domain=vercel.com&sz=32",
+      "description": "Frontend deployment platform"
+    },
+    {
+      "id": "salvum",
+      "title": "Salvum",
+      "url": "https://formation.salvum.org/",
+      "category": "Learning",
+      "subcategory": "Online Courses",
+      "icon": "https://www.google.com/s2/favicons?domain=formation.salvum.org&sz=32",
+      "description": "Emergency training platform"
+    },
+    {
+      "id": "jinka",
+      "title": "Jinka",
+      "url": "https://www.jinka.fr/",
+      "category": "Personal",
+      "subcategory": "Navigation",
+      "icon": "https://www.google.com/s2/favicons?domain=jinka.fr&sz=32",
+      "description": "Apartment finding app"
+    },
+    {
+      "id": "lolcode",
+      "title": "LOLCODE",
+      "url": "http://www.lolcode.org/",
+      "category": "Development",
+      "subcategory": "References",
+      "icon": "https://www.google.com/s2/favicons?domain=lolcode.org&sz=32",
+      "description": "Esoteric programming language"
+    },
+    {
+      "id": "citycrunch",
+      "title": "City Crunch Lyon",
+      "url": "https://lyon.citycrunch.fr/",
+      "category": "Personal",
+      "subcategory": "Navigation",
+      "icon": "https://www.google.com/s2/favicons?domain=citycrunch.fr&sz=32",
+      "description": "Lyon city guide and recommendations"
     }
   ],
   "pins": [
