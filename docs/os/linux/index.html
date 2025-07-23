@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-os/linux" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Linux / Unix | Yet another book of knowledge</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://thopterulu.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://thopterulu.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://thopterulu.github.io/docs/os/linux"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Linux / Unix | Yet another book of knowledge"><meta data-rh="true" name="description" content="Awesome linux"><meta data-rh="true" property="og:description" content="Awesome linux"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://thopterulu.github.io/docs/os/linux"><link data-rh="true" rel="alternate" href="https://thopterulu.github.io/docs/os/linux" hreflang="en"><link data-rh="true" rel="alternate" href="https://thopterulu.github.io/docs/os/linux" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Operating Systems","item":"https://thopterulu.github.io/docs/category/operating-systems"},{"@type":"ListItem","position":2,"name":"Linux / Unix","item":"https://thopterulu.github.io/docs/os/linux"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Yet another book of knowledge RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Yet another book of knowledge Atom Feed"><link rel="stylesheet" href="/assets/css/styles.39621377.css">
+<script src="/assets/js/runtime~main.8d07bfcb.js" defer="defer"></script>
+<script src="/assets/js/main.4283776d.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Book</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">I try things</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/Thopterulu" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro">Intro</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/dev-environnement">Dev Environnement</a><button aria-label="Expand sidebar category &#x27;Dev Environnement&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/learning-languages">Learning languages</a><button aria-label="Expand sidebar category &#x27;Learning languages&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/building-websites">Building websites</a><button aria-label="Expand sidebar category &#x27;Building websites&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/electronic-logic--computer-science">electronic, logic &amp; computer science</a><button aria-label="Expand sidebar category &#x27;electronic, logic &amp; computer science&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/jai-lu">J&#x27;ai lu</a><button aria-label="Expand sidebar category &#x27;J&#x27;ai lu&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/gaming">Gaming</a><button aria-label="Expand sidebar category &#x27;Gaming&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/networks">Networks</a><button aria-label="Expand sidebar category &#x27;Networks&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/category/operating-systems">Operating Systems</a><button aria-label="Collapse sidebar category &#x27;Operating Systems&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/os/linux">Linux / Unix</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/os/make-your-own-os">Make your own OS</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/misc/absolute-cinema">misc</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/operating-systems"><span>Operating Systems</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Linux / Unix</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Linux / Unix</h1></header>
+<p><a href="https://www.notion.so/Awesome-linux-b9acaf40bf9e4837ac1d22a74f3606e7?pvs=21" target="_blank" rel="noopener noreferrer">Awesome linux</a></p>
+<p><a href="https://www.notion.so/Kernel-ae410f591d3f4d189c331c454addd516?pvs=21" target="_blank" rel="noopener noreferrer">Kernel</a></p>
+<p><a href="https://www.notion.so/unix-based-5227a8040f334f298210609ae7c8015f?pvs=21" target="_blank" rel="noopener noreferrer">unix based</a></p>
+<p><a href="https://www.notion.so/Commandes-Linux-b9d4005591a2462fad92b2412b8bcff9?pvs=21" target="_blank" rel="noopener noreferrer">Commandes Linux</a></p>
+<hr>
+<h1>Desktop environnement</h1>
+<p><a href="https://github.com/Kazhnuz/awesome-gnome" target="_blank" rel="noopener noreferrer">https://github.com/Kazhnuz/awesome-gnome</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="polybar">Polybar<a href="#polybar" class="hash-link" aria-label="Direct link to Polybar" title="Direct link to Polybar">​</a></h2>
+<p>#TODEEPEN</p>
+<p>Polybar est un utilitaire permettant de faire une barre de status dans le bureau de l&#x27;user, fonctionne avec des UNIX-based OS. 11k likes github</p>
+<p><a href="https://github.com/polybar/polybar" target="_blank" rel="noopener noreferrer">polybar repo</a></p>
+<p><a href="https://github.com/TiagoDanin/Awesome-Polybar" target="_blank" rel="noopener noreferrer">awesome polybar</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="x-desktop-environments">X Desktop Environments<a href="#x-desktop-environments" class="hash-link" aria-label="Direct link to X Desktop Environments" title="Direct link to X Desktop Environments">​</a></h2>
+<blockquote>
+<p>You cannot talk about a unified Linux look because there is no such thing.</p>
+</blockquote>
+<p><a href="https://camo.githubusercontent.com/3bd49105308380cc4a8211c0dd9c6396b29ad03987707fe4eba8653e0b24f0e5/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f7374616e64617264732e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/3bd49105308380cc4a8211c0dd9c6396b29ad03987707fe4eba8653e0b24f0e5/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f7374616e64617264732e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gnome"><a href="https://www.gnome.org/" target="_blank" rel="noopener noreferrer">GNOME</a><a href="#gnome" class="hash-link" aria-label="Direct link to gnome" title="Direct link to gnome">​</a></h3>
+<blockquote>
+<p>GNOME 3 is an easy and elegant way to use your computer. It is designed to put you in control and bring freedom to everybody. GNOME 3 is developed by the GNOME community, a diverse, international group of contributors that is supported by an independent, non-profit foundation.</p>
+</blockquote>
+<p><a href="https://camo.githubusercontent.com/da099079c09948661a844cbc80535908fda81a96ed05b858ef26079dcfe030ce/68747470733a2f2f7777772e676e6f6d652e6f72672f77702d636f6e74656e742f75706c6f6164732f323031352f30332f616374697669746965732d6f766572766965772d332e31362d393430783532392e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/da099079c09948661a844cbc80535908fda81a96ed05b858ef26079dcfe030ce/68747470733a2f2f7777772e676e6f6d652e6f72672f77702d636f6e74656e742f75706c6f6164732f323031352f30332f616374697669746965732d6f766572766965772d332e31362d393430783532392e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kde"><a href="https://www.kde.org/" target="_blank" rel="noopener noreferrer">KDE</a><a href="#kde" class="hash-link" aria-label="Direct link to kde" title="Direct link to kde">​</a></h3>
+<blockquote>
+<p>The KDE® Community is an international technology team dedicated to creating a free and user-friendly computing experience, offering an advanced graphical desktop, a wide variety of applications for communication, work, education and entertainment and a platform to easily build new applications upon. We have a strong focus on finding innovative solutions to old and new problems, creating a vibrant atmosphere open for experimentation.</p>
+</blockquote>
+<p><a href="https://camo.githubusercontent.com/335f2f21befc10b7ecdd963eebc09c226e4476b4ef0bac849cadd99faadaf295/68747470733a2f2f7777772e6b64652e6f72672f616e6e6f756e63656d656e74732f706c61736d61352e302f73637265656e73686f74732f6465736b746f702e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/335f2f21befc10b7ecdd963eebc09c226e4476b4ef0bac849cadd99faadaf295/68747470733a2f2f7777772e6b64652e6f72672f616e6e6f756e63656d656e74732f706c61736d61352e302f73637265656e73686f74732f6465736b746f702e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="xfce"><a href="http://www.xfce.org/" target="_blank" rel="noopener noreferrer">Xfce</a><a href="#xfce" class="hash-link" aria-label="Direct link to xfce" title="Direct link to xfce">​</a></h3>
+<blockquote>
+<p>Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.</p>
+</blockquote>
+<p><a href="https://camo.githubusercontent.com/46760a304f1e5e101cd9bc5f303e0750949e131611e6c506b55af2bf5843393a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37312f586663652d342e342e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/46760a304f1e5e101cd9bc5f303e0750949e131611e6c506b55af2bf5843393a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37312f586663652d342e342e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lxde"><a href="http://lxde.org/" target="_blank" rel="noopener noreferrer">LXDE</a><a href="#lxde" class="hash-link" aria-label="Direct link to lxde" title="Direct link to lxde">​</a></h3>
+<blockquote>
+<p>The &quot;Lightweight X11 Desktop Environment&quot; is an extremely fast-performing and energy-saving desktop environment. Maintained by an international community of developers, it comes with a beautiful interface, multi-language support, standard keyboard short cuts and additional features like tabbed file browsing. LXDE uses less CPU and less RAM than other environments. It is especially designed for cloud computers with low hardware specifications, such as netbooks, mobile devices (e.g. MIDs) or older computers. LXDE can be installed on many Linux distributions including Debian, Fedora, OpenSUSE and Ubuntu. It is the standard for Knoppix and lubuntu. LXDE also runs on OpenSolaris and BSD. LXDE provides a fast desktop experience; connecting easily with applications in the cloud. LXDE supports a wealth of programs that can be installed locally with Linux systems. The source code of LXDE is licensed partly under the terms of the GNU General Public License and partly under the LGPL.</p>
+</blockquote>
+<p><a href="https://camo.githubusercontent.com/69573d293e7f959c85408cdea9d2b87bbdc23007868a58b39b36d0f2bc0c7aff/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f342f34632f4c5844455f6465736b746f705f66756c6c2e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/69573d293e7f959c85408cdea9d2b87bbdc23007868a58b39b36d0f2bc0c7aff/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f342f34632f4c5844455f6465736b746f705f66756c6c2e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="other-desktop-environments">Other Desktop Environments<a href="#other-desktop-environments" class="hash-link" aria-label="Direct link to Other Desktop Environments" title="Direct link to Other Desktop Environments">​</a></h3>
+<ul>
+<li><a href="http://developer.linuxmint.com/projects/cinnamon-projects.html" target="_blank" rel="noopener noreferrer">Cinnamon</a> - Strives to provide a traditional user experience.</li>
+<li><a href="https://edeproject.org/" target="_blank" rel="noopener noreferrer">EDE</a> - Small desktop environment built to be responsive, light in resource usage and to have a familiar look and feel.</li>
+<li><a href="http://lxqt.org/" target="_blank" rel="noopener noreferrer">LXQt</a> - Qt port and the upcoming version of LXDE, the Lightweight Desktop Environment. It is the product of the merge between the LXDE-Qt and the Razor-qt projects: A lightweight, modular, blazing-fast and user-friendly desktop environment.</li>
+<li><a href="http://www.mate-desktop.org/" target="_blank" rel="noopener noreferrer">MATE</a> - Provides an intuitive and attractive desktop to Linux users using traditional metaphors. Fork of GNOME 2.</li>
+<li><a href="https://elementary.io/" target="_blank" rel="noopener noreferrer">Pantheon</a> - Pantheon is the default desktop environment originally created for the elementary OS distribution. The desktop has some similarities with GNOME Shell and macOS.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="x-windows-managers">X Windows Managers<a href="#x-windows-managers" class="hash-link" aria-label="Direct link to X Windows Managers" title="Direct link to X Windows Managers">​</a></h2>
+<ul>
+<li><a href="http://unauthorised.org/dhog/9wm.html" target="_blank" rel="noopener noreferrer">9wm</a> - Window manager that attempts to emulate the Plan 9 window manager 8-1/2 as far as possible within the constraints imposed by X.</li>
+<li><a href="https://awesomewm.org/" target="_blank" rel="noopener noreferrer">awesome</a> - Highly configurable window manager for X. Fast and extensible.</li>
+<li><a href="https://github.com/bradleythughes/blackbox" target="_blank" rel="noopener noreferrer">Blackbox</a> - Lightweight window manager for the X window system, without library dependencies. Built using C++.</li>
+<li><a href="https://github.com/baskerville/bspwm" target="_blank" rel="noopener noreferrer">bspwm</a> - Tiling window manager that represents windows as the leaves of a full binary tree.</li>
+<li><a href="https://launchpad.net/compiz" target="_blank" rel="noopener noreferrer">Compiz</a> - OpenGL compositing window manager. It has a plug-in system to be changed at runtime.</li>
+<li><a href="http://dwm.suckless.org/" target="_blank" rel="noopener noreferrer">dwm</a> - Dynamic window manager for X. It manages windows in tiled, monocle and floating layouts. All of the layouts can be applied dynamically, optimising the environment for the application and task performed.</li>
+<li><a href="http://www.enlightenment.org/" target="_blank" rel="noopener noreferrer">Enlightenment</a> - Window manager bundled with a whole suite of libraries to help you create beautiful user interfaces.</li>
+<li><a href="http://www.fluxbox.org/" target="_blank" rel="noopener noreferrer">Fluxbox</a> - Window manager for X, lightweight and easy to handle but full of features to make an easy and fast desktop experience. Built using C++.</li>
+<li><a href="http://fvwm.org/" target="_blank" rel="noopener noreferrer">FVWM</a> - ICCCM-compliant multiple virtual desktop window manager for X. Extremely powerful.</li>
+<li><a href="http://i3wm.org/" target="_blank" rel="noopener noreferrer">i3</a> - Tiling window manager. BSD-licensed. Primarily targeted at advanced users and developers.</li>
+<li><a href="https://ice-wm.org/" target="_blank" rel="noopener noreferrer">IceWM</a> - Window manager with the goal of being fast, simple, and not getting in the user&#x27;s way.</li>
+<li><a href="http://www.joewing.net/projects/jwm/" target="_blank" rel="noopener noreferrer">JWM</a> - Lightweight window manager for X11. Good choice for older and/or less powerful systems, though perfectly capable of running on modern systems. Built using C.</li>
+<li><a href="https://www.yoctoproject.org/software-item/matchbox/" target="_blank" rel="noopener noreferrer">Matchbox</a> - Environment for X running on non-desktop embedded platforms such as handhelds, set-top boxes, kiosks and anything else for which screen space, input mechanisms or system resources are limited.</li>
+<li><a href="https://download.gnome.org/sources/mutter/" target="_blank" rel="noopener noreferrer">Mutter</a> - Window manager for X. Default window manager in GNOME 3.</li>
+<li><a href="http://openbox.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Openbox</a> - Highly configurable window manager with extensive standards support.</li>
+<li><a href="http://www.nongnu.org/ratpoison/" target="_blank" rel="noopener noreferrer">ratpoison</a> - A simple window manager with no library dependencies, no graphics, and no decorations. Modeled after GNU Screen.</li>
+<li><a href="http://sawfish.tuxfamily.org/" target="_blank" rel="noopener noreferrer">Sawfish</a> - Extensible window manager. Its aim is to manage windows in the most flexible and attractive manner possible. Built using Lisp-based scripting language.</li>
+<li><a href="https://code.google.com/p/wmii/" target="_blank" rel="noopener noreferrer">wmii</a> - Small, scriptable window manager, with a 9P filesystem interface and an acme-like layout.</li>
+<li><a href="http://xmonad.org/" target="_blank" rel="noopener noreferrer">xmonad</a> - Dynamically tiling X11 window manager. Makes work easier by automating aligning and searching for windows. Built using Haskell.</li>
+</ul>
+<hr>
+<h1>Package managers</h1>
+<blockquote>
+<p>NIX</p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/nixos/nix" target="_blank" rel="noopener noreferrer">*Nix</a> is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible.*</p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/nix-community/awesome-nix" target="_blank" rel="noopener noreferrer">awesome NIX</a></p>
+</blockquote>
+<hr>
+<h1>Packages linux ubuntu et debians usefull</h1>
+<p><em>Liste des paquets utiles pour debian et linux</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="touchégg">Touchégg<a href="#touchégg" class="hash-link" aria-label="Direct link to Touchégg" title="Direct link to Touchégg">​</a></h2>
+<p>Open source, ajoute l’utilisation des gestures pour la touchbar 3, 4, 5 doigts</p>
+<p><a href="https://github.com/JoseExposito/touchegg" target="_blank" rel="noopener noreferrer">https://github.com/JoseExposito/touchegg</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ajouter-la-reconnaissance-dempreinte-digitale">Ajouter la reconnaissance d’empreinte digitale<a href="#ajouter-la-reconnaissance-dempreinte-digitale" class="hash-link" aria-label="Direct link to Ajouter la reconnaissance d’empreinte digitale" title="Direct link to Ajouter la reconnaissance d’empreinte digitale">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt intall fprintd</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>toute l’explication disponible ci-dessous</p>
+<p><a href="https://doc.ubuntu-fr.org/fprint" target="_blank" rel="noopener noreferrer">fprint [Wiki ubuntu-fr]</a></p>
+<h1>Drive (google drive)</h1>
+<p>fonctionne comme un outil de versionning.</p>
+<p><a href="https://github.com/odeke-em/drive" target="_blank" rel="noopener noreferrer">https://github.com/odeke-em/drive</a></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">flatpak install drive</span><br></span></code></pre></div></div>
+<hr>
+<h1>INTERESTING OS</h1>
+<p>List d’OS qui me semblent intéressant, pour la cybersec, pour le design, l’accessibilité / / le dev</p>
+<h1>Burn des OS</h1>
+<p>permet de burn des os sur SD et USB</p>
+<p><a href="https://www.balena.io/etcher/" target="_blank" rel="noopener noreferrer">balenaEtcher - Flash OS images to SD cards &amp; USB drives</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="parrot-os">Parrot OS<a href="#parrot-os" class="hash-link" aria-label="Direct link to Parrot OS" title="Direct link to Parrot OS">​</a></h2>
+<p>Parrot OS est un système de plus de 600 outils de cybersec, mais il existe aussi dans différentes versions pour la bureautique, les mini ordinateurs, l’IOT.</p>
+<p><a href="https://parrotsec.org/" target="_blank" rel="noopener noreferrer">Parrot Security</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="specs">Specs<a href="#specs" class="hash-link" aria-label="Direct link to Specs" title="Direct link to Specs">​</a></h3>
+<p>Minimum 1.5 GO de RAM, un stockage à 20 go mini requis.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kali-linux">Kali Linux<a href="#kali-linux" class="hash-link" aria-label="Direct link to Kali Linux" title="Direct link to Kali Linux">​</a></h2>
+<p>Kali est un peu une des bases des OS destinés à la Cybersec.</p>
+<p><a href="https://www.kali.org/" target="_blank" rel="noopener noreferrer">Kali Linux | Penetration Testing and Ethical Hacking Linux Distribution</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="specs-1">Specs<a href="#specs-1" class="hash-link" aria-label="Direct link to Specs" title="Direct link to Specs">​</a></h3>
+<p>Minimum 1.5 GO de RAM, un stockage à 20 go mini requis.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="archlinux">Archlinux<a href="#archlinux" class="hash-link" aria-label="Direct link to Archlinux" title="Direct link to Archlinux">​</a></h2>
+<p>Os kompliké
+<a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreferrer">archlinux wiki</a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="blackarch-linux">Blackarch linux<a href="#blackarch-linux" class="hash-link" aria-label="Direct link to Blackarch linux" title="Direct link to Blackarch linux">​</a></h2>
+<p>Black arch est moins connu que les deux précédents et à la particularité de correpondre aux clichés du hacking dans le cinéma. Black arch est basé sur Arch linux.</p>
+<p><a href="https://blackarch.org/" target="_blank" rel="noopener noreferrer">BlackArch</a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="alipine-linux">Alipine linux<a href="#alipine-linux" class="hash-link" aria-label="Direct link to Alipine linux" title="Direct link to Alipine linux">​</a></h2>
+<p>Alpine est réputé car ultra léger, donc ultra sécurisé car peu d’outils qui pourraient ajouter des vulnérabilités, très simple d’utilisation no GUI.</p>
+<p><a href="https://www.alpinelinux.org/" target="_blank" rel="noopener noreferrer">index | Alpine Linux</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="specs-2">Specs<a href="#specs-2" class="hash-link" aria-label="Direct link to Specs" title="Direct link to Specs">​</a></h3>
+<p>Minimum 1.5 GO de RAM, l’image fait 8 mo et nécessite en moyenne 130 mo de stockage.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pop_os">Pop!_OS<a href="#pop_os" class="hash-link" aria-label="Direct link to Pop!_OS" title="Direct link to Pop!_OS">​</a></h2>
+<p>Os open source, design attrayant.</p>
+<p><a href="https://pop.system76.com/" target="_blank" rel="noopener noreferrer">https://pop.system76.com/</a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gentoo-linux">gentoo linux<a href="#gentoo-linux" class="hash-link" aria-label="Direct link to gentoo linux" title="Direct link to gentoo linux">​</a></h2>
+<p>Os utilisé pour faire de la sec et de l&#x27;embarqué.
+<a href="https://wiki.gentoo.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">gentoo wiki</a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jingos">JingOS<a href="#jingos" class="hash-link" aria-label="Direct link to JingOS" title="Direct link to JingOS">​</a></h2>
+<p><em>OS pour les tablettes.</em><a href="https://github.com/JingOS-team/JingOS" target="_blank" rel="noopener noreferrer">JingOS</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="distributions">Distributions<a href="#distributions" class="hash-link" aria-label="Direct link to Distributions" title="Direct link to Distributions">​</a></h2>
+<p>Distributions are organized into three different categories: for <strong>beginners</strong>, for <strong>intermediate</strong> users and for <strong>advanced</strong> users. In those categories, the distributions are organized in the alphabetical order.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="beginners">Beginners<a href="#beginners" class="hash-link" aria-label="Direct link to Beginners" title="Direct link to Beginners">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="elementary-os"><a href="http://elementary.io/" target="_blank" rel="noopener noreferrer">elementary OS</a><a href="#elementary-os" class="hash-link" aria-label="Direct link to elementary-os" title="Direct link to elementary-os">​</a></h3>
+<blockquote>
+<p>elementary OS is an Ubuntu-based desktop distribution. Some of its more interesting features include a custom desktop environment called Pantheon and many custom apps including Photos, Music, Videos, Calendar, Terminal, Files, and more. It also comes with some familiar apps like the Epiphany web browser and a fork of Geary mail.</p>
+</blockquote>
+<p><strong>Latest version:</strong> elementary OS Juno (5.0)</p>
+<p><strong>Default Desktop Environment:</strong> Pantheon</p>
+<p><a href="https://camo.githubusercontent.com/d35b49aa6bc395f91ecda49eb3f599ffc9d734f9434e0f416d19bbfc1d9d1479/68747470733a2f2f656c656d656e746172792e696f2f696d616765732f73637265656e73686f74732f6465736b746f702e6a7067" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/d35b49aa6bc395f91ecda49eb3f599ffc9d734f9434e0f416d19bbfc1d9d1479/68747470733a2f2f656c656d656e746172792e696f2f696d616765732f73637265656e73686f74732f6465736b746f702e6a7067</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fedora"><a href="https://getfedora.org/" target="_blank" rel="noopener noreferrer">Fedora</a><a href="#fedora" class="hash-link" aria-label="Direct link to fedora" title="Direct link to fedora">​</a></h3>
+<blockquote>
+<p>Fedora (formerly Fedora Core) is a Linux distribution developed by the community-supported Fedora Project and owned by Red Hat. Fedora contains software distributed under a free and open-source license and aims to be on the leading edge of such technologies. Fedora has a reputation for focusing on innovation, integrating new technologies early on and working closely with upstream Linux communities. The default desktop in Fedora is the GNOME desktop environment and the default interface is the GNOME Shell. Other desktop environments, including KDE, Xfce, LXDE, MATE and Cinnamon, are available. Fedora Project also distributes custom variations of Fedora called Fedora spins. These are built with specific sets of software packages, offering alternative desktop environments or targeting specific interests such as gaming, security, design, scientific computing and robotics.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Fedora Twenty Nine (29)</p>
+<p><strong>Default Desktop Environment:</strong> GNOME</p>
+<p><a href="https://camo.githubusercontent.com/5fb32d177642592032673b077ba36aebf7310cb0b01e52e54b72dbe45c27a058/68747470733a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6665646f72612e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/5fb32d177642592032673b077ba36aebf7310cb0b01e52e54b72dbe45c27a058/68747470733a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6665646f72612e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="linux-mint"><a href="http://linuxmint.com/" target="_blank" rel="noopener noreferrer">Linux Mint</a><a href="#linux-mint" class="hash-link" aria-label="Direct link to linux-mint" title="Direct link to linux-mint">​</a></h3>
+<blockquote>
+<p>Linux Mint is an Ubuntu-based distribution whose goal is to provide a more complete out-of-the-box experience by including browser plugins, support for DVD playback, Java and other components. It also adds a custom desktop and menus, several unique configuration tools, and a web-based package installation interface. Linux Mint is compatible with Ubuntu software repositories.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Linux Mint Tessa (19.1)</p>
+<p><strong>Default Desktop Environment:</strong> Cinnamon and MATE</p>
+<p><a href="https://camo.githubusercontent.com/16e25bb3d0b431e2623b60c09a0d53f18fd4d2cf2b79f02e3f836fe94842b471/68747470733a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6d696e742e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/16e25bb3d0b431e2623b60c09a0d53f18fd4d2cf2b79f02e3f836fe94842b471/68747470733a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6d696e742e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ubuntu"><a href="http://www.ubuntu.com/" target="_blank" rel="noopener noreferrer">Ubuntu</a><a href="#ubuntu" class="hash-link" aria-label="Direct link to ubuntu" title="Direct link to ubuntu">​</a></h3>
+<blockquote>
+<p>Ubuntu is a complete desktop Linux operating system, freely available with both community and professional support. The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customise and alter their software in whatever way they see fit. &quot;Ubuntu&quot; is an ancient African word, meaning &quot;humanity to others&quot;. The Ubuntu distribution brings the spirit of Ubuntu to the software world.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Ubuntu 18.10</p>
+<p><strong>Default Desktop Environment:</strong> GNOME</p>
+<p><a href="https://camo.githubusercontent.com/45abb129d2016a24679c01dc9f4c54431a0894acc64139bc26ee5f07e2baca8a/68747470733a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f7562756e74752e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/45abb129d2016a24679c01dc9f4c54431a0894acc64139bc26ee5f07e2baca8a/68747470733a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f7562756e74752e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="intermediate">Intermediate<a href="#intermediate" class="hash-link" aria-label="Direct link to Intermediate" title="Direct link to Intermediate">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="centos"><a href="https://www.centos.org/" target="_blank" rel="noopener noreferrer">CentOS</a><a href="#centos" class="hash-link" aria-label="Direct link to centos" title="Direct link to centos">​</a></h3>
+<blockquote>
+<p>CentOS as a group is a community of open source contributors and users. Typical CentOS users are organisations and individuals that do not need strong commercial support in order to achieve successful operation. CentOS is 100% compatible rebuild of the Red Hat Enterprise Linux, in full compliance with Red Hat&#x27;s redistribution requirements. CentOS is for people who need an enterprise class operating system stability without the cost of certification and support.</p>
+</blockquote>
+<p><strong>Latest version:</strong> CentOS 7.1810</p>
+<p><strong>Default Desktop Environment:</strong> GNOME</p>
+<p><a href="https://camo.githubusercontent.com/a722ea4221ca936b388a472240163701988dc50c9e8d60e50a5e9302321b0b76/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f63656e746f732e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/a722ea4221ca936b388a472240163701988dc50c9e8d60e50a5e9302321b0b76/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f63656e746f732e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="debian-gnulinux"><a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian GNU/Linux</a><a href="#debian-gnulinux" class="hash-link" aria-label="Direct link to debian-gnulinux" title="Direct link to debian-gnulinux">​</a></h3>
+<blockquote>
+<p>The Debian Project is an association of individuals who have made common cause to create a free operating system. This operating system is called Debian. Debian systems currently use the Linux kernel. Linux is a completely free piece of software started by Linus Torvalds and supported by thousands of programmers worldwide. Of course, the thing that people want is application software: programs to help them get what they want to do done, from editing documents to running a business to playing games to writing more software. Debian comes with over 50,000 packages (precompiled software that is bundled up in a nice format for easy installation on your machine) - all of it free. It&#x27;s a bit like a tower. At the base is the kernel. On top of that are all the basic tools. Next is all the software that you run on the computer. At the top of the tower is Debian -- carefully organizing and fitting everything so it all works together.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Debian Stretch (9.6)</p>
+<p><strong>Default Desktop Environment:</strong> GNOME</p>
+<p><a href="https://camo.githubusercontent.com/753ad6523b42cf705b82c3b2efac35c2dc9bc3fe1dc61293d432c8ac4ba14609/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f64656269616e2e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/753ad6523b42cf705b82c3b2efac35c2dc9bc3fe1dc61293d432c8ac4ba14609/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f64656269616e2e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mageia"><a href="http://www.mageia.org/" target="_blank" rel="noopener noreferrer">Mageia</a><a href="#mageia" class="hash-link" aria-label="Direct link to mageia" title="Direct link to mageia">​</a></h3>
+<blockquote>
+<p>Mageia is a fork of Mandriva Linux formed in September 2010 by former employees and contributors to the popular French Linux distribution. Unlike Mandriva, which is a commercial entity, the Mageia project is a community project and a non-profit organisation whose goal is to develop a free Linux-based operating system.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Mageia 6.1</p>
+<p><strong>Default Desktop Environment:</strong> KDE</p>
+<p><a href="https://camo.githubusercontent.com/673cfab2a7d19f3d7ee9333424f1e7a03d5fd9682e39e54f955edd68b334a8c3/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6d61676569612e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/673cfab2a7d19f3d7ee9333424f1e7a03d5fd9682e39e54f955edd68b334a8c3/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6d61676569612e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manjaro"><a href="https://manjaro.org/" target="_blank" rel="noopener noreferrer">Manjaro</a><a href="#manjaro" class="hash-link" aria-label="Direct link to manjaro" title="Direct link to manjaro">​</a></h3>
+<blockquote>
+<p>Manjaro Linux is a fast, user-friendly, desktop-oriented operating system based on Arch Linux. Key features include intuitive installation process, automatic hardware detection, stable rolling-release model, ability to install multiple kernels, special Bash scripts for managing graphics drivers and extensive desktop configurability. Manjaro Linux offers Xfce as the core desktop options, as well as a minimalist Net edition for more advanced users. Community-supported GNOME 3/Cinnamon and KDE flavours are available. Users also benefit from the supportive and vibrant Manjaro community forum.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Manjaro 18.0.2</p>
+<p><strong>Default Desktop Environment:</strong> XFCE, KDE</p>
+<p><a href="https://camo.githubusercontent.com/d9fd35436fb20daebd2e0f3b9c22b1a4cc1887adcabc74d705ed5a318c2f2d8e/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6d616e6a61726f2e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/d9fd35436fb20daebd2e0f3b9c22b1a4cc1887adcabc74d705ed5a318c2f2d8e/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6d616e6a61726f2e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="opensuse"><a href="http://www.opensuse.org/" target="_blank" rel="noopener noreferrer">openSUSE</a><a href="#opensuse" class="hash-link" aria-label="Direct link to opensuse" title="Direct link to opensuse">​</a></h3>
+<blockquote>
+<p>The openSUSE project is a community program sponsored by SUSE Linux and other companies. Promoting the use of Linux everywhere, this program provides free, easy access to openSUSE, a complete Linux distribution. The openSUSE project has three main goals: make openSUSE the easiest Linux for anyone to obtain and the most widely used Linux distribution; leverage open source collaboration to make openSUSE the world&#x27;s most usable Linux distribution and desktop environment for new and experienced Linux users; dramatically simplify and open the development and packaging processes to make openSUSE the platform of choice for Linux developers and software vendors.</p>
+</blockquote>
+<p><strong>Latest version:</strong> openSUSE Leap 15.0 and openSUSE Tumbleweed (Rolling Release system)</p>
+<p><strong>Default Desktop Environment:</strong> KDE, GNOME, XFCE, LXDE (Choose on installation)</p>
+<p><a href="https://camo.githubusercontent.com/83993efc9a4fe47b5983cc0589987146b558b2369202e94591ee646036cd1039/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6f70656e737573652e706e67" target="_blank" rel="noopener noreferrer">https://camo.githubusercontent.com/83993efc9a4fe47b5983cc0589987146b558b2369202e94591ee646036cd1039/687474703a2f2f64697374726f77617463682e636f6d2f696d616765732f6367666a6f6577646c62632f6f70656e737573652e706e67</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced">Advanced<a href="#advanced" class="hash-link" aria-label="Direct link to Advanced" title="Direct link to Advanced">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="arch-linux"><a href="https://www.archlinux.org/" target="_blank" rel="noopener noreferrer">Arch Linux</a><a href="#arch-linux" class="hash-link" aria-label="Direct link to arch-linux" title="Direct link to arch-linux">​</a></h3>
+<blockquote>
+<p>Arch Linux is an independently developed, x86_64-optimised Linux distribution targeted at competent Linux users. It uses &#x27;pacman&#x27;, its home-grown package manager, to provide updates to the latest software applications with full dependency tracking. Operating on a rolling release system, Arch can be installed from a CD image or via an FTP server. The default install provides a solid base that enables users to create a custom installation. In addition, the Arch Build System (ABS) provides a way to easily build new packages, modify the configuration of stock packages, and share these packages with other users via the Arch Linux user repository.</p>
+</blockquote>
+<p><strong>Latest version:</strong> Not applicable (Rolling Release system)</p>
+<p><strong>Default Desktop Environment:</strong> Not applicable (there&#x27;s no default Desktop environment)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="special-purpose">Special Purpose<a href="#special-purpose" class="hash-link" aria-label="Direct link to Special Purpose" title="Direct link to Special Purpose">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coreos"><a href="https://coreos.com/" target="_blank" rel="noopener noreferrer">CoreOS</a><a href="#coreos" class="hash-link" aria-label="Direct link to coreos" title="Direct link to coreos">​</a></h3>
+<p><strong>Specialty:</strong> Clusters</p>
+<blockquote>
+<p>CoreOS is a Linux-based operating system for servers. Built from the ground up and designed primarily for the modern data centre, CoreOS provides specialist tools for making the system secure, reliable and up-to-date. Some of the more interesting features of the distribution include reliable updates and patches via FastPatch, a dashboard for managing rolling updates via CoreUpdate, a docker for packaging applications, as well as support for bare metal and many cloud providers.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kali-linux-1"><a href="http://www.kali.org/" target="_blank" rel="noopener noreferrer">Kali Linux</a><a href="#kali-linux-1" class="hash-link" aria-label="Direct link to kali-linux-1" title="Direct link to kali-linux-1">​</a></h3>
+<p><strong>Specialty:</strong> Penetration testing</p>
+<blockquote>
+<p>Kali Linux (formerly known as BackTrack) is a Debian-based distribution with a collection of security and forensics tools. It features timely security updates, support for the ARM architecture, a choice of four popular desktop environments, and seamless upgrades to newer versions.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="puppy-linux"><a href="http://puppylinux.org/" target="_blank" rel="noopener noreferrer">Puppy Linux</a><a href="#puppy-linux" class="hash-link" aria-label="Direct link to puppy-linux" title="Direct link to puppy-linux">​</a></h3>
+<p><strong>Specialty:</strong> Low system requirements</p>
+<blockquote>
+<p>Puppy Linux is yet another Linux distribution. What&#x27;s different here is that Puppy is extraordinarily small, yet quite full-featured. Puppy boots into a ramdisk and, unlike live CD distributions that have to keep pulling stuff off the CD, it loads into RAM. This means that all applications start in the blink of an eye and respond to user input instantly. Puppy Linux has the ability to boot off a flash card or any USB memory device, CDROM, Zip disk or LS/120/240 Superdisk, floppy disks, internal hard drive. It can even use a multisession formatted CD-RW/DVD-RW to save everything back to the CD/DVD with no hard drive required at all.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ubuntu-studio"><a href="http://ubuntustudio.org/" target="_blank" rel="noopener noreferrer">Ubuntu Studio</a><a href="#ubuntu-studio" class="hash-link" aria-label="Direct link to ubuntu-studio" title="Direct link to ubuntu-studio">​</a></h3>
+<p><strong>Specialty:</strong> Multimedia creation</p>
+<blockquote>
+<p>Ubuntu Studio is a variant of Ubuntu aimed at the GNU/Linux audio, video and graphic enthusiast as well as professional. The distribution provides a collection of open-source applications available for multimedia creation.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tails"><a href="https://tails.boum.org/index.en.html" target="_blank" rel="noopener noreferrer">Tails</a><a href="#tails" class="hash-link" aria-label="Direct link to tails" title="Direct link to tails">​</a></h3>
+<p><strong>Specialty:</strong> Incognito live system</p>
+<blockquote>
+<p>Tails is a live system that aims to preserve your privacy and anonymity. It helps you to use the Internet anonymously and circumvent censorship almost anywhere you go and on any computer but leaving no trace unless you ask it to explicitly. It is a complete operating system designed to be used from a USB stick or a DVD independently of the computer&#x27;s original operating system. It is Free Software and based on Debian GNU/Linux. Tails comes with several built-in applications pre-configured with security in mind: web browser, instant messaging client, email client, office suite, image and sound editor, etc.</p>
+</blockquote>
+<h1>a checker</h1>
+<p>#TODO</p>
+<p><a href="https://github.com/jubalh/awesome-os" target="_blank" rel="noopener noreferrer">awesome os</a></p>
+<p><a href="https://github.com/Awesome-HarmonyOS/HarmonyOS" target="_blank" rel="noopener noreferrer">https://github.com/Awesome-HarmonyOS/HarmonyOS</a></p>
+<hr>
+<hr>
+<hr>
+<p>LINUX BASICS</p>
+<p><a href="https://github.com/Forty-Bot/linux-checklist" target="_blank" rel="noopener noreferrer">https://github.com/Forty-Bot/linux-checklist</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notes">Notes<a href="#notes" class="hash-link" aria-label="Direct link to Notes" title="Direct link to Notes">​</a></h2>
+<p><strong>If a command errors or fails, try it again with <code>sudo</code> (or <code>sudo !!</code> to save typing)</strong></p>
+<p><strong>Google anything and everything. If you don&#x27;t know or understand something, google it</strong></p>
+<p>When you see the syntax <code>$word</code>, do not type it verbatim, but instead substitute the appropriate word (usually referenced in a previous command).</p>
+<p>When the order of steps does not matter, bullet points have been used instead of ordinals.</p>
+<p>To edit files, run <code>gedit</code>, a graphical editor akin to notepad; <code>nano</code>, a simple command-line editor; or <code>vim</code>, a powerful  but less intuitive command-line editor. Note that vim may need to be installed with <code>apt-get install vim</code>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="checklist">Checklist<a href="#checklist" class="hash-link" aria-label="Direct link to Checklist" title="Direct link to Checklist">​</a></h2>
+<ol>
+<li>
+<p>Read the readme</p>
+<p>Note down which ports/users are allowed.</p>
+</li>
+<li>
+<p><strong>Do Forensics Questions</strong></p>
+<p>You may destroy the requisite information if you work on the checklist!</p>
+</li>
+<li>
+<p>Secure root</p>
+<p>set <code>PermitRootLogin no</code> in <code>/etc/ssh/sshd_config</code></p>
+</li>
+<li>
+<p>Secure Users</p>
+<ol>
+<li>
+<p>Disable the guest user.</p>
+<p>Go to <code>/etc/lightdm/lightdm.conf</code> and add the line</p>
+<p><code>allow-guest=false</code></p>
+<p>Then restart your session with <code>sudo restart lightdm</code>. This will log you out, so make sure you are not executing anything important.</p>
+</li>
+<li>
+<p>Open up <code>/etc/passwd</code> and check which users</p>
+<ul>
+<li>Are uid 0</li>
+<li>Can login</li>
+<li>Are allowed in the readme</li>
+</ul>
+</li>
+<li>
+<p>Delete unauthorized users:</p>
+<p><code>sudo userdel -r $user</code></p>
+<p><code>sudo groupdel $user</code></p>
+</li>
+<li>
+<p>Check <code>/etc/sudoers.d</code> and make sure only members of group sudo can sudo.</p>
+</li>
+<li>
+<p>Check <code>/etc/group</code> and remove non-admins from sudo and admin groups.</p>
+</li>
+<li>
+<p>Check user directories.</p>
+<ol>
+<li>cd <code>/home</code></li>
+<li><code>sudo ls -Ra *</code></li>
+<li>Look in any directories which show up for media files/tools and/or &quot;hacking tools.&quot;</li>
+</ol>
+</li>
+<li>
+<p>Enforce Password Requirements.</p>
+<ol>
+<li>
+<p>Add or change password expiration requirements to <code>/etc/login.defs</code>.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">PASS_MIN_DAYS 7</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">PASS_MAX_DAYS 90</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">PASS_WARN_AGE 14</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+</li>
+<li>
+<p>Add a minimum password length, password history, and add complexity requirements.</p>
+<ol>
+<li>Open <code>/etc/pam.d/common-password</code> with sudo.</li>
+<li>Add <code>minlen=8</code> to the end of the line that has <code>pam_unix.so</code> in it.</li>
+<li>Add <code>remember=5</code> to the end of the line that has <code>pam_unix.so</code> in it.</li>
+<li>Locate the line that has <a href="http://pam.cracklib.so/" target="_blank" rel="noopener noreferrer">pam.cracklib.so</a> in it. If you cannot find that line, install cracklib with <code>sudo apt-get install libpam-cracklib</code>.</li>
+<li>Add <code>ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-</code> to the end of that line.</li>
+</ol>
+</li>
+<li>
+<p>Implement an account lockout policy.</p>
+<ol>
+<li>Open <code>/etc/pam.d/common-auth</code>.</li>
+<li>Add <code>deny=5 unlock_time=1800</code> to the end of the line with <code>pam_tally2.so</code> in it.</li>
+</ol>
+</li>
+<li>
+<p>Change all passwords to satisfy these requirements.</p>
+<p><code>chpasswd</code> is very useful for this purpose.</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>Enable automatic updates</p>
+<p>In the GUI set Update Manager-&gt;Settings-&gt;Updates-&gt;Check for updates:-&gt;Daily.</p>
+</li>
+<li>
+<p>Secure ports</p>
+<ol>
+<li><code>sudo ss -ln</code></li>
+<li>If a port has <code>127.0.0.1:$port</code> in its line, that means it&#x27;s connected to loopback and isn&#x27;t exposed. Otherwise, there should only be ports which are specified in the readme open (but there probably will be tons more).</li>
+<li>For each open port which should be closed:<!-- -->
+<ol>
+<li><code>sudo lsof -i :$port</code></li>
+<li>Copy the program which is listening on the port.
+<code>whereis $program</code></li>
+<li>Copy where the program is (if there is more than one location, just copy the first one).
+<code>dpkg -S $location</code></li>
+<li>This shows which package provides the file (If there is no package, that means you can probably delete it with <code>rm $location; killall -9 $program</code>).
+<code>sudo apt-get purge $package</code></li>
+<li>Check to make sure you aren&#x27;t accidentally removing critical packages before hitting &quot;y&quot;.</li>
+<li><code>sudo ss -l</code> to make sure the port actually closed.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>Secure network</p>
+<ol>
+<li>
+<p>Enable the firewall</p>
+<p><code>sudo ufw enable</code></p>
+</li>
+<li>
+<p>Enable syn cookie protection</p>
+<p><code>sysctl -n net.ipv4.tcp_syncookies</code></p>
+</li>
+<li>
+<p>Disable IPv6 (Potentially harmful)</p>
+<p><code>echo &quot;net.ipv6.conf.all.disable_ipv6 = 1&quot; | sudo tee -a /etc/sysctl.conf</code></p>
+</li>
+<li>
+<p>Disable IP Forwarding</p>
+<p><code>echo 0 | sudo tee /proc/sys/net/ipv4/ip_forward</code></p>
+</li>
+<li>
+<p>Prevent IP Spoofing</p>
+<p><code>echo &quot;nospoof on&quot; | sudo tee -a /etc/host.conf</code></p>
+</li>
+</ol>
+</li>
+<li>
+<p>Install Updates</p>
+<p>Start this before half-way.</p>
+<ul>
+<li>Do general updates.<!-- -->
+<ol>
+<li><code>sudo apt-get update</code>.</li>
+<li><code>sudo apt-get upgrade</code>.</li>
+</ol>
+</li>
+<li>Update services specified in readme.<!-- -->
+<ol>
+<li>Google to find what the latest stable version is.</li>
+<li>Google &quot;ubuntu install service version&quot;.</li>
+<li>Follow the instructions.</li>
+</ol>
+</li>
+<li>Ensure that you have points for upgrading the kernel, each service specified in the readme, and bash if it is <a href="https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29" target="_blank" rel="noopener noreferrer">vulnerable to shellshock</a>.</li>
+</ul>
+</li>
+<li>
+<p>Configure services</p>
+<ol>
+<li>
+<p>Check service configuration files for required services.
+Usually a wrong setting in a config file for sql, apache, etc. will be a point.</p>
+</li>
+<li>
+<p>Ensure all services are legitimate.</p>
+<p><code>service --status-all</code></p>
+</li>
+</ol>
+</li>
+<li>
+<p>Check the installed packages for &quot;hacking tools,&quot; such as password crackers.</p>
+</li>
+<li>
+<p>Run other (more comprehensive) checklists. This is checklist designed to get most of the common points, but it may not catch everything.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips">Tips<a href="#tips" class="hash-link" aria-label="Direct link to Tips" title="Direct link to Tips">​</a></h2>
+<ul>
+<li>Netcat is installed by default in ubuntu. You will most likely not get points for removing this version.</li>
+<li>Some services (such as <code>ssh</code>) may be required even if they are not mentioned in the readme. Others may be points even if they are explicitly mentioned in the readme</li>
+</ul>
+<p>nslookup command because it’s another command line tool that is usually available. This tool looks up IP addresses assigned to website domain names.</p>
+<p>tracert tool, which sends packets to each router along the path between your computer and the destination you  want your traffic to reach.</p>
+<hr>
+<hr>
+<hr>
+<h1><a href="https://www.parrotsec.org/docs/apparmor.html#apparmor" target="_blank" rel="noopener noreferrer">AppArmor</a></h1>
+<p>AppArmor is an effective and easy-to-use Linux application security
+system. AppArmor proactively protects the operating system and
+applications from external or internal threats, even zero-day attacks,
+by enforcing good behavior and preventing even unknown application flaws
+from being exploited.</p>
+<p>AppArmor security policies completely define what system resources
+individual applications can access, and with what privileges. Several
+default policies are included with AppArmor, and using a combination of
+advanced static analysis and learning-based tools, AppArmor policies for
+even very complex applications can be deployed successfully in a matter
+of hours.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="check-if-apparmor-is-installed"><a href="https://www.parrotsec.org/docs/apparmor.html#check-if-apparmor-is-installed" target="_blank" rel="noopener noreferrer">Check if AppArmor is installed</a><a href="#check-if-apparmor-is-installed" class="hash-link" aria-label="Direct link to check-if-apparmor-is-installed" title="Direct link to check-if-apparmor-is-installed">​</a></h2>
+<p>AppArmor and it&#x27;s profiles should already be enabled and running on Parrot OS. To check if AppArmor is active do:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-status --enabled; echo $?</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>The output should return 0. Alternatively run the following command to see the loaded AppArmor profiles:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-status</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p><img decoding="async" loading="lazy" src="https://www.parrotsec.org/docs/images/apparmor/0.png" alt="https://www.parrotsec.org/docs/images/apparmor/0.png" class="img_ev3q"></p>
+<p>If for any reason AppArmor is not pre-installed, continue reading below.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="install-apparmor"><a href="https://www.parrotsec.org/docs/apparmor.html#install-apparmor" target="_blank" rel="noopener noreferrer">Install AppArmor</a><a href="#install-apparmor" class="hash-link" aria-label="Direct link to install-apparmor" title="Direct link to install-apparmor">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install apparmor apparmor-utils auditd</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p><strong>apparmor</strong> = main package <strong>apparmor-utils</strong> = utilities for controlling apparmor profiles <strong>auditd</strong> = automatic profile generation tools</p>
+<p>To enable AppArmor run the followng commands:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo mkdir -p /etc/default/grub.d</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">echo &#x27;GRUB_CMDLINE_LINUX_DEFAULT=&quot;$GRUB_CMDLINE_LINUX_DEFAULT apparmor=1 security=apparmor&quot;&#x27; | sudo tee /etc/default/grub.d/apparmor.cfg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo update-grub</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo reboot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>Then run the following command to inspect the current state:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-status</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>This will list all loaded AppArmor profiles for applications,
+processes and detail their status (enforced, complain, unconfined).</p>
+<p>For example, to check what is enforce mode, run the following command:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ps auxZ | grep -v &#x27;^unconfined&#x27;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>To install profile, run the following command:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install apparmor-profiles apparmor-profiles-extra</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>AppArmor profiles live in <code>/etc/apparmor.d/</code>.
+You can use apparmor_parser(8) to insert them into the kernel. This is
+done automatically when installing packages that drop policy in <code>/etc/apparmor.d/</code>.</p>
+<p>For example, to set all &quot;extra&quot; profiles (provided in the
+apparmor-profiles package) to complain mode (except deny rules that are
+silently enforced, security policy is not enforced and access violations
+are logged), do the following:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cd /usr/share/doc/apparmor-profiles/extras</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cp -i *.* /etc/apparmor.d/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">for f in *.*;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    do aa-complain /etc/apparmor.d/$f;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">done</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>To set these profiles to <strong>enforce mode</strong>, use <code>aa-enforce</code> instead of <code>aa-complain</code>.
+Beware though: many of these profiles are not up-to-date and will break
+functionality in enforce mode (and possibly even in complain mode);
+enforce them only if you&#x27;re ready to improve them upstream.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="disable-apparmor"><a href="https://www.parrotsec.org/docs/apparmor.html#disable-apparmor" target="_blank" rel="noopener noreferrer">Disable AppArmor</a><a href="#disable-apparmor" class="hash-link" aria-label="Direct link to disable-apparmor" title="Direct link to disable-apparmor">​</a></h2>
+<p>First, you can disable individual profiles with <code>aa-disable</code>.
+But if you want to <em>entirely</em> disable AppArmor on your system, run:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo mkdir -p /etc/default/grub.d</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">echo &#x27;GRUB_CMDLINE_LINUX_DEFAULT=&quot;$GRUB_CMDLINE_LINUX_DEFAULT apparmor=0&quot;&#x27; | sudo tee /etc/default/grub.d/apparmor.cfg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo update-grub</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo reboot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="debug-apparmor"><a href="https://www.parrotsec.org/docs/apparmor.html#debug-apparmor" target="_blank" rel="noopener noreferrer">Debug AppArmor</a><a href="#debug-apparmor" class="hash-link" aria-label="Direct link to debug-apparmor" title="Direct link to debug-apparmor">​</a></h2>
+<p>The <code>aa-notify</code> command, from the <em>apparmor-notify</em> package, is able to provide a desktop notification whenever a program causes a DENIED message in <code>/var/log/kern.log</code>. Grant yourself read permissions for <code>/var/log/kern.log</code> by joining the adm group:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo adduser &quot;$USER&quot; adm</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>Then <code>aa-notify</code> should automatically start the next time you login (using <code>/etc/xdg/autostart/apparmor-notify.desktop</code>). If it doesn&#x27;t, start it manually:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">aa-notify -p</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>If you use <strong>auditd</strong>, you should start <code>aa-notify</code> in this way:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-notify -p -f /var/log/audit/audit.log</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="diagnose-if-a-bug-might-have-been-caused-by-apparmor"><a href="https://www.parrotsec.org/docs/apparmor.html#diagnose-if-a-bug-might-have-been-caused-by-apparmor" target="_blank" rel="noopener noreferrer">Diagnose if a bug might have been caused by AppArmor</a><a href="#diagnose-if-a-bug-might-have-been-caused-by-apparmor" class="hash-link" aria-label="Direct link to diagnose-if-a-bug-might-have-been-caused-by-apparmor" title="Direct link to diagnose-if-a-bug-might-have-been-caused-by-apparmor">​</a></h3>
+<p>The apparmor-utils package provides many useful commands to debug AppArmor. Find out if AppArmor is enabled through <code>cat</code> command:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cat /sys/module/apparmor/parameters/enabled</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>This will return Y if true.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="find-out-which-profiles-are-enabled"><a href="https://www.parrotsec.org/docs/apparmor.html#find-out-which-profiles-are-enabled" target="_blank" rel="noopener noreferrer">Find out which profiles are enabled</a><a href="#find-out-which-profiles-are-enabled" class="hash-link" aria-label="Direct link to find-out-which-profiles-are-enabled" title="Direct link to find-out-which-profiles-are-enabled">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-status</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>The command above will list all loaded AppArmor profiles for
+applications and processes and detail their status (enforced, complain,
+unconfined).
+And,</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ps auxZ | grep -v &#x27;^unconfined&#x27;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>will list running executables which are currently confined by an
+AppArmor profile. Sometimes, it&#x27;s useful to disable a profile and to
+test again if the bug persists:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-disable /etc/apparmor.d/$profile</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>e.g. <code>sudo aa-disable /etc/apparmor.d/usr.bin.pidgin</code>.</p>
+<p>You can re-enable the profile in this way:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-enforce /etc/apparmor.d/$profile</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verify-the-logs"><a href="https://www.parrotsec.org/docs/apparmor.html#verify-the-logs" target="_blank" rel="noopener noreferrer">Verify the logs</a><a href="#verify-the-logs" class="hash-link" aria-label="Direct link to verify-the-logs" title="Direct link to verify-the-logs">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo tail -f /var/log/syslog | grep &#x27;DENIED&#x27;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>or (if <strong>auditd</strong> is installed):</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo tail -f /var/log/auditd/auditd.log | grep &#x27;DENIED&#x27;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>The &quot;DENIED&quot; lines should provide more information on what concrete
+process or access to the file system has been denied. Output a list of
+processes with tcp or udp ports that do not have AppArmor profiles
+loaded:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo aa-unconfined</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>also possible with the <code>--paranoid</code> parameter.</p>
+<p>Profiles in complain mode will send ALLOWED lines in the logs for
+entries that would normally be DENIED in enforce mode. You can use this
+to tweak configurations before turning them on in enforce mode.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/category/operating-systems"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Operating Systems</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/os/make-your-own-os"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Make your own OS</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#polybar" class="table-of-contents__link toc-highlight">Polybar</a></li><li><a href="#x-desktop-environments" class="table-of-contents__link toc-highlight">X Desktop Environments</a><ul><li><a href="#gnome" class="table-of-contents__link toc-highlight">GNOME</a></li><li><a href="#kde" class="table-of-contents__link toc-highlight">KDE</a></li><li><a href="#xfce" class="table-of-contents__link toc-highlight">Xfce</a></li><li><a href="#lxde" class="table-of-contents__link toc-highlight">LXDE</a></li><li><a href="#other-desktop-environments" class="table-of-contents__link toc-highlight">Other Desktop Environments</a></li></ul></li><li><a href="#x-windows-managers" class="table-of-contents__link toc-highlight">X Windows Managers</a></li><li><a href="#touchégg" class="table-of-contents__link toc-highlight">Touchégg</a><ul><li><a href="#ajouter-la-reconnaissance-dempreinte-digitale" class="table-of-contents__link toc-highlight">Ajouter la reconnaissance d’empreinte digitale</a></li></ul></li><li><a href="#parrot-os" class="table-of-contents__link toc-highlight">Parrot OS</a><ul><li><a href="#specs" class="table-of-contents__link toc-highlight">Specs</a></li></ul></li><li><a href="#kali-linux" class="table-of-contents__link toc-highlight">Kali Linux</a><ul><li><a href="#specs-1" class="table-of-contents__link toc-highlight">Specs</a></li></ul></li><li><a href="#archlinux" class="table-of-contents__link toc-highlight">Archlinux</a></li><li><a href="#blackarch-linux" class="table-of-contents__link toc-highlight">Blackarch linux</a></li><li><a href="#alipine-linux" class="table-of-contents__link toc-highlight">Alipine linux</a><ul><li><a href="#specs-2" class="table-of-contents__link toc-highlight">Specs</a></li></ul></li><li><a href="#pop_os" class="table-of-contents__link toc-highlight">Pop!_OS</a></li><li><a href="#gentoo-linux" class="table-of-contents__link toc-highlight">gentoo linux</a></li><li><a href="#jingos" class="table-of-contents__link toc-highlight">JingOS</a></li><li><a href="#distributions" class="table-of-contents__link toc-highlight">Distributions</a><ul><li><a href="#beginners" class="table-of-contents__link toc-highlight">Beginners</a></li><li><a href="#elementary-os" class="table-of-contents__link toc-highlight">elementary OS</a></li><li><a href="#fedora" class="table-of-contents__link toc-highlight">Fedora</a></li><li><a href="#linux-mint" class="table-of-contents__link toc-highlight">Linux Mint</a></li><li><a href="#ubuntu" class="table-of-contents__link toc-highlight">Ubuntu</a></li><li><a href="#intermediate" class="table-of-contents__link toc-highlight">Intermediate</a></li><li><a href="#centos" class="table-of-contents__link toc-highlight">CentOS</a></li><li><a href="#debian-gnulinux" class="table-of-contents__link toc-highlight">Debian GNU/Linux</a></li><li><a href="#mageia" class="table-of-contents__link toc-highlight">Mageia</a></li><li><a href="#manjaro" class="table-of-contents__link toc-highlight">Manjaro</a></li><li><a href="#opensuse" class="table-of-contents__link toc-highlight">openSUSE</a></li><li><a href="#advanced" class="table-of-contents__link toc-highlight">Advanced</a></li><li><a href="#arch-linux" class="table-of-contents__link toc-highlight">Arch Linux</a></li><li><a href="#special-purpose" class="table-of-contents__link toc-highlight">Special Purpose</a></li><li><a href="#coreos" class="table-of-contents__link toc-highlight">CoreOS</a></li><li><a href="#kali-linux-1" class="table-of-contents__link toc-highlight">Kali Linux</a></li><li><a href="#puppy-linux" class="table-of-contents__link toc-highlight">Puppy Linux</a></li><li><a href="#ubuntu-studio" class="table-of-contents__link toc-highlight">Ubuntu Studio</a></li><li><a href="#tails" class="table-of-contents__link toc-highlight">Tails</a></li></ul></li><li><a href="#notes" class="table-of-contents__link toc-highlight">Notes</a></li><li><a href="#checklist" class="table-of-contents__link toc-highlight">Checklist</a></li><li><a href="#tips" class="table-of-contents__link toc-highlight">Tips</a></li><li><a href="#check-if-apparmor-is-installed" class="table-of-contents__link toc-highlight">Check if AppArmor is installed</a></li><li><a href="#install-apparmor" class="table-of-contents__link toc-highlight">Install AppArmor</a></li><li><a href="#disable-apparmor" class="table-of-contents__link toc-highlight">Disable AppArmor</a></li><li><a href="#debug-apparmor" class="table-of-contents__link toc-highlight">Debug AppArmor</a><ul><li><a href="#diagnose-if-a-bug-might-have-been-caused-by-apparmor" class="table-of-contents__link toc-highlight">Diagnose if a bug might have been caused by AppArmor</a></li><li><a href="#find-out-which-profiles-are-enabled" class="table-of-contents__link toc-highlight">Find out which profiles are enabled</a></li><li><a href="#verify-the-logs" class="table-of-contents__link toc-highlight">Verify the logs</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Other links about me🎶</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.codewars.com/users/Thopter" target="_blank" rel="noopener noreferrer" class="footer__link-item">Codewars<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://monkeytype.com/profile/Thopter" target="_blank" rel="noopener noreferrer" class="footer__link-item">Monkeytype<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/Thopterulu" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Yet another book of knowledge, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
