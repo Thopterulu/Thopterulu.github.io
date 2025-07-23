@@ -530,6 +530,15 @@
       "subcategory": "Navigation",
       "icon": "https://www.google.com/s2/favicons?domain=citycrunch.fr&sz=32",
       "description": "Lyon city guide and recommendations"
+    },
+    {
+      "id": "sauce-piquante",
+      "title": "Sauce Piquante",
+      "url": "https://www.sauce-piquante.fr/",
+      "category": "Shopping",
+      "subcategory": "Food & Beverages",
+      "icon": "https://www.google.com/s2/favicons?domain=sauce-piquante.fr&sz=32",
+      "description": "Hot sauce website"
     }
   ],
   "pins": [
@@ -661,7 +670,7 @@
     },
     {
       "name": "Shopping",
-      "subcategories": ["Clothing", "Footwear", "Outdoor Gear", "General"]
+      "subcategories": ["Clothing", "Footwear", "Outdoor Gear", "General", "Food & Beverages"]
     },
     {
       "name": "Tech",
